@@ -1,0 +1,87 @@
+[
+    {
+        "Nom": "Le Monde",
+        "Url": "https://www.lemonde.fr/",
+        "Hash": "4b81b0589031904d8e7dc9e8f23953ef5197ad626f2011709da40fe990af268a"
+    },
+    {
+        "Nom": "Le Figaro",
+        "Url": "https://www.lefigaro.fr/",
+        "Hash": "f48ff69387142f8722f6317e8707bd884b78de3a68fec7d2933ba3b676f3dfd4"
+    },
+    {
+        "Nom": "Liberation",
+        "Url": "https://www.liberation.fr/",
+        "Hash": "29e2c528c7cea22b1942c940af9eb5d7c302eb7850f2ae5855a19ff940cbac26"
+    },
+    {
+        "Nom": "L Express",
+        "Url": "https://www.lexpress.fr/",
+        "Hash": "dbbbdebefcaf9942c491d1fcc4f47d28121a280d668352e69fddc28835a013b7"
+    },
+    {
+        "Nom": "Le Parisien",
+        "Url": "https://www.leparisien.fr/",
+        "Hash": "9fd8f72c72e97f76329515a03a8ba4fbf14b9c30426065d5cfb5ac58db0634be"
+    },
+    {
+        "Nom": "Mediapart",
+        "Url": "https://www.mediapart.fr/",
+        "Hash": "163f8147a3532d2c8cd32ee6eac96bce43d5fe65e3337a6e6b1dae5a2663d47d"
+    },
+    {
+        "Nom": "Marianne",
+        "Url": "https://www.marianne.net/",
+        "Hash": "c94b2413be246f6976a4c903c6924f199e856b4e9d7f7dd9ded26d71886dd93b"
+    },
+    {
+        "Nom": "20 Minutes",
+        "Url": "https://www.20minutes.fr/",
+        "Hash": "7b99a7d995ec33d8dcd31c6a9ce758953a4a42051dde5ddaf7787871346c8fc2"
+    },
+    {
+        "Nom": "La Croix",
+        "Url": "https://www.la-croix.com/",
+        "Hash": "c739145fa0265d194045d3f6ffed05ea4fdcc732910908346f1fd28aafe0208f"
+    },
+    {
+        "Nom": "Les Echos",
+        "Url": "https://www.lesechos.fr/",
+        "Hash": "2b0c4910be7eb539b592a2244b2420a4effa16c5626fbf658d3413b3dd37e03f"
+    },
+    {
+        "Nom": "Courrier International",
+        "Url": "https://www.courrierinternational.com/",
+        "Hash": "178ebd2e1183f93bcaba3b083f150657488e01389c12caebd583ab8218004a3f"
+    },
+    {
+        "Nom": "Bfmtv",
+        "Url": "https://www.bfmtv.com/",
+        "Hash": "edf6e0d5d758f953acc75788fbaf3ee77d282b338bbebe232f301595378e23f7"
+    },
+    {
+        "Nom": "Le Nouvel Obs",
+        "Url": "https://www.nouvelobs.com/",
+        "Hash": "e29bf8ef8c82efe1fec3f9aa8e9e957a0f0b4097a61ae8494871127e75bbf0aa"
+    },
+    {
+        "Nom": "Huffington Post",
+        "Url": "https://www.huffingtonpost.fr/",
+        "Hash": "6ce43bc1b9d56173605aaaeb67f71f7257b0d78f92863b9a896033cbd074c2bd"
+    },
+    {
+        "Nom": "Valeurs Actuelles",
+        "Url": "https://www.valeursactuelles.com/",
+        "Hash": "7aba446bc8bbeeb40c00d3ee3330e4fc586f54ca78fda4318cb079b0360b1acd"
+    },
+    {
+        "Nom": "RTL",
+        "Url": "https://www.rtl.fr/",
+        "Hash": "33dcedf91357dd652248fa8ee8ec3129bc1d922f2d310c6a4910ad269a8b63f5"
+    },
+    {
+        "Nom": "Slate",
+        "Url": "https://www.slate.fr/",
+        "Hash": "90ba3f9a3697cf0d9ffbb91177863bd6013e7f6ee1faaf158d1157ba4d7422ad"
+    }
+]

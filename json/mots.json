@@ -1,0 +1,5550 @@
+[
+    {
+        "word": "Biden",
+        "category": "politique"
+    },
+    {
+        "word": "Trump",
+        "category": "politique"
+    },
+    {
+        "word": "Macron",
+        "category": "politique"
+    },
+    {
+        "word": "Merkel",
+        "category": "politique"
+    },
+    {
+        "word": "Putin",
+        "category": "politique"
+    },
+    {
+        "word": "Johnson",
+        "category": "politique"
+    },
+    {
+        "word": "Castex",
+        "category": "politique"
+    },
+    {
+        "word": "Hollande",
+        "category": "politique"
+    },
+    {
+        "word": "Sarkozy",
+        "category": "politique"
+    },
+    {
+        "word": "Chirac",
+        "category": "politique"
+    },
+    {
+        "word": "Mitterrand",
+        "category": "politique"
+    },
+    {
+        "word": "De Gaulle",
+        "category": "politique"
+    },
+    {
+        "word": "Roosevelt",
+        "category": "politique"
+    },
+    {
+        "word": "Churchill",
+        "category": "politique"
+    },
+    {
+        "word": "Bolsonaro",
+        "category": "politique"
+    },
+    {
+        "word": "Xi Jinping",
+        "category": "politique"
+    },
+    {
+        "word": "Modi",
+        "category": "politique"
+    },
+    {
+        "word": "Trudeau",
+        "category": "politique"
+    },
+    {
+        "word": "Abe",
+        "category": "politique"
+    },
+    {
+        "word": "Erdogan",
+        "category": "politique"
+    },
+    {
+        "word": "Netanyahu",
+        "category": "politique"
+    },
+    {
+        "word": "Orban",
+        "category": "politique"
+    },
+    {
+        "word": "Merkel",
+        "category": "politique"
+    },
+    {
+        "word": "Macron",
+        "category": "politique"
+    },
+    {
+        "word": "Putin",
+        "category": "politique"
+    },
+    {
+        "word": "Johnson",
+        "category": "politique"
+    },
+    {
+        "word": "Castex",
+        "category": "politique"
+    },
+    {
+        "word": "Hollande",
+        "category": "politique"
+    },
+    {
+        "word": "Sarkozy",
+        "category": "politique"
+    },
+    {
+        "word": "Chirac",
+        "category": "politique"
+    },
+    {
+        "word": "Mitterrand",
+        "category": "politique"
+    },
+    {
+        "word": "De Gaulle",
+        "category": "politique"
+    },
+    {
+        "word": "Roosevelt",
+        "category": "politique"
+    },
+    {
+        "word": "Churchill",
+        "category": "politique"
+    },
+    {
+        "word": "leftist",
+        "category": "politique"
+    },
+    {
+        "word": "rightist",
+        "category": "politique"
+    },
+    {
+        "word": "conservative",
+        "category": "politique"
+    },
+    {
+        "word": "tory",
+        "category": "politique"
+    },
+    {
+        "word": "labour",
+        "category": "politique"
+    },
+    {
+        "word": "Democrats",
+        "category": "politique"
+    },
+    {
+        "word": "Republicans",
+        "category": "politique"
+    },
+    {
+        "word": "Green Party",
+        "category": "politique"
+    },
+    {
+        "word": "Politics",
+        "category": "politique"
+    },
+    {
+        "word": "politics",
+        "category": "politique"
+    },
+    {
+        "word": "politic",
+        "category": "politique"
+    },
+    {
+        "word": "president",
+        "category": "politique"
+    },
+    {
+        "word": "President",
+        "category": "politique"
+    },
+    {
+        "word": "MAGA",
+        "category": "politique"
+    },
+    {
+        "word": "Brexit",
+        "category": "politique"
+    },
+    {
+        "word": "EU",
+        "category": "politique"
+    },
+    {
+        "word": "European Union",
+        "category": "politique"
+    },
+    {
+        "word": "United Nations",
+        "category": "politique"
+    },
+    {
+        "word": "UN",
+        "category": "politique"
+    },
+    {
+        "word": "NATO",
+        "category": "politique"
+    },
+    {
+        "word": "G7",
+        "category": "politique"
+    },
+    {
+        "word": "G20",
+        "category": "politique"
+    },
+    {
+        "word": "G8",
+        "category": "politique"
+    },
+    {
+        "word": "pr\u00e9sidentielle",
+        "category": "politique"
+    },
+    {
+        "word": "d\u00e9put\u00e9",
+        "category": "politique"
+    },
+    {
+        "word": "d\u00e9put\u00e9e",
+        "category": "politique"
+    },
+    {
+        "word": "politique",
+        "category": "politique"
+    },
+    {
+        "word": "gouvernement",
+        "category": "politique"
+    },
+    {
+        "word": "\u00e9lections",
+        "category": "politique"
+    },
+    {
+        "word": "d\u00e9mocratie",
+        "category": "politique"
+    },
+    {
+        "word": "parti",
+        "category": "politique"
+    },
+    {
+        "word": "vote",
+        "category": "politique"
+    },
+    {
+        "word": "assembl\u00e9e",
+        "category": "politique"
+    },
+    {
+        "word": "s\u00e9nat",
+        "category": "politique"
+    },
+    {
+        "word": "pr\u00e9sident",
+        "category": "politique"
+    },
+    {
+        "word": "ministre",
+        "category": "politique"
+    },
+    {
+        "word": "r\u00e9forme",
+        "category": "politique"
+    },
+    {
+        "word": "loi",
+        "category": "politique"
+    },
+    {
+        "word": "d\u00e9cret",
+        "category": "politique"
+    },
+    {
+        "word": "opposition",
+        "category": "politique"
+    },
+    {
+        "word": "majorit\u00e9",
+        "category": "politique"
+    },
+    {
+        "word": "droite",
+        "category": "politique"
+    },
+    {
+        "word": "gauche",
+        "category": "politique"
+    },
+    {
+        "word": "centre",
+        "category": "politique"
+    },
+    {
+        "word": "lib\u00e9ral",
+        "category": "politique"
+    },
+    {
+        "word": "conservateur",
+        "category": "politique"
+    },
+    {
+        "word": "socialiste",
+        "category": "politique"
+    },
+    {
+        "word": "r\u00e9publicain",
+        "category": "politique"
+    },
+    {
+        "word": "d\u00e9put\u00e9",
+        "category": "politique"
+    },
+    {
+        "word": "s\u00e9nateur",
+        "category": "politique"
+    },
+    {
+        "word": "campagne",
+        "category": "politique"
+    },
+    {
+        "word": "scrutin",
+        "category": "politique"
+    },
+    {
+        "word": "politicien",
+        "category": "politique"
+    },
+    {
+        "word": "mandat",
+        "category": "politique"
+    },
+    {
+        "word": "l\u00e9gislation",
+        "category": "politique"
+    },
+    {
+        "word": "constitution",
+        "category": "politique"
+    },
+    {
+        "word": "r\u00e9f\u00e9rendum",
+        "category": "politique"
+    },
+    {
+        "word": "parlement",
+        "category": "politique"
+    },
+    {
+        "word": "congr\u00e8s",
+        "category": "politique"
+    },
+    {
+        "word": "\u00e9lecteur",
+        "category": "politique"
+    },
+    {
+        "word": "candidat",
+        "category": "politique"
+    },
+    {
+        "word": "coalition",
+        "category": "politique"
+    },
+    {
+        "word": "id\u00e9ologie",
+        "category": "politique"
+    },
+    {
+        "word": "d\u00e9bat",
+        "category": "politique"
+    },
+    {
+        "word": "discours",
+        "category": "politique"
+    },
+    {
+        "word": "agenda",
+        "category": "politique"
+    },
+    {
+        "word": "diplomatie",
+        "category": "politique"
+    },
+    {
+        "word": "n\u00e9gociation",
+        "category": "politique"
+    },
+    {
+        "word": "trait\u00e9",
+        "category": "politique"
+    },
+    {
+        "word": "sommet",
+        "category": "politique"
+    },
+    {
+        "word": "alliance",
+        "category": "politique"
+    },
+    {
+        "word": "conflit",
+        "category": "politique"
+    },
+    {
+        "word": "crise",
+        "category": "politique"
+    },
+    {
+        "word": "r\u00e9volution",
+        "category": "politique"
+    },
+    {
+        "word": "manifestation",
+        "category": "politique"
+    },
+    {
+        "word": "gr\u00e8ve",
+        "category": "politique"
+    },
+    {
+        "word": "r\u00e9pression",
+        "category": "politique"
+    },
+    {
+        "word": "censure",
+        "category": "politique"
+    },
+    {
+        "word": "autorit\u00e9",
+        "category": "politique"
+    },
+    {
+        "word": "libert\u00e9",
+        "category": "politique"
+    },
+    {
+        "word": "droits",
+        "category": "politique"
+    },
+    {
+        "word": "justice",
+        "category": "politique"
+    },
+    {
+        "word": "\u00e9galit\u00e9",
+        "category": "politique"
+    },
+    {
+        "word": "citoyen",
+        "category": "politique"
+    },
+    {
+        "word": "nation",
+        "category": "politique"
+    },
+    {
+        "word": "patriotisme",
+        "category": "politique"
+    },
+    {
+        "word": "souverainet\u00e9",
+        "category": "politique"
+    },
+    {
+        "word": "\u00e9tat",
+        "category": "politique"
+    },
+    {
+        "word": "gouvernance",
+        "category": "politique"
+    },
+    {
+        "word": "administration",
+        "category": "politique"
+    },
+    {
+        "word": "budget",
+        "category": "politique"
+    },
+    {
+        "word": "fiscalit\u00e9",
+        "category": "politique"
+    },
+    {
+        "word": "imp\u00f4t",
+        "category": "politique"
+    },
+    {
+        "word": "\u00e9conomie",
+        "category": "politique"
+    },
+    {
+        "word": "social",
+        "category": "politique"
+    },
+    {
+        "word": "UMP",
+        "category": "politique"
+    },
+    {
+        "word": "PS",
+        "category": "politique"
+    },
+    {
+        "word": "RN",
+        "category": "politique"
+    },
+    {
+        "word": "LREM",
+        "category": "politique"
+    },
+    {
+        "word": "FI",
+        "category": "politique"
+    },
+    {
+        "word": "EELV",
+        "category": "politique"
+    },
+    {
+        "word": "PCF",
+        "category": "politique"
+    },
+    {
+        "word": "LR",
+        "category": "politique"
+    },
+    {
+        "word": "NPA",
+        "category": "politique"
+    },
+    {
+        "word": "LFI",
+        "category": "politique"
+    },
+    {
+        "word": "Modem",
+        "category": "politique"
+    },
+    {
+        "word": "PRG",
+        "category": "politique"
+    },
+    {
+        "word": "UDI",
+        "category": "politique"
+    },
+    {
+        "word": "FN",
+        "category": "politique"
+    },
+    {
+        "word": "RPR",
+        "category": "politique"
+    },
+    {
+        "word": "Les Verts",
+        "category": "politique"
+    },
+    {
+        "word": "MRC",
+        "category": "politique"
+    },
+    {
+        "word": "DLF",
+        "category": "politique"
+    },
+    {
+        "word": "LO",
+        "category": "politique"
+    },
+    {
+        "word": "PP",
+        "category": "politique"
+    },
+    {
+        "word": "Rassemblement",
+        "category": "politique"
+    },
+    {
+        "word": "Gauche",
+        "category": "politique"
+    },
+    {
+        "word": "Droite",
+        "category": "politique"
+    },
+    {
+        "word": "Centriste",
+        "category": "politique"
+    },
+    {
+        "word": "Socialiste",
+        "category": "politique"
+    },
+    {
+        "word": "R\u00e9publicain",
+        "category": "politique"
+    },
+    {
+        "word": "D\u00e9mocrate",
+        "category": "politique"
+    },
+    {
+        "word": "Lib\u00e9ral",
+        "category": "politique"
+    },
+    {
+        "word": "Conservateur",
+        "category": "politique"
+    },
+    {
+        "word": "Progressiste",
+        "category": "politique"
+    },
+    {
+        "word": "Nationaliste",
+        "category": "politique"
+    },
+    {
+        "word": "Ecologiste",
+        "category": "politique"
+    },
+    {
+        "word": "Communiste",
+        "category": "politique"
+    },
+    {
+        "word": "Ind\u00e9pendantiste",
+        "category": "politique"
+    },
+    {
+        "word": "Populiste",
+        "category": "politique"
+    },
+    {
+        "word": "Patriote",
+        "category": "politique"
+    },
+    {
+        "word": "R\u00e9formiste",
+        "category": "politique"
+    },
+    {
+        "word": "Radical",
+        "category": "politique"
+    },
+    {
+        "word": "Royaliste",
+        "category": "politique"
+    },
+    {
+        "word": "Monarchiste",
+        "category": "politique"
+    },
+    {
+        "word": "F\u00e9d\u00e9raliste",
+        "category": "politique"
+    },
+    {
+        "word": "Unioniste",
+        "category": "politique"
+    },
+    {
+        "word": "Souverainiste",
+        "category": "politique"
+    },
+    {
+        "word": "Autonomiste",
+        "category": "politique"
+    },
+    {
+        "word": "Libertaire",
+        "category": "politique"
+    },
+    {
+        "word": "Anarchiste",
+        "category": "politique"
+    },
+    {
+        "word": "Marxiste",
+        "category": "politique"
+    },
+    {
+        "word": "L\u00e9niniste",
+        "category": "politique"
+    },
+    {
+        "word": "Trotskyiste",
+        "category": "politique"
+    },
+    {
+        "word": "Mao\u00efste",
+        "category": "politique"
+    },
+    {
+        "word": "Gaulliste",
+        "category": "politique"
+    },
+    {
+        "word": "Mitterrandiste",
+        "category": "politique"
+    },
+    {
+        "word": "Chiraquien",
+        "category": "politique"
+    },
+    {
+        "word": "Sarkozyste",
+        "category": "politique"
+    },
+    {
+        "word": "Hollandais",
+        "category": "politique"
+    },
+    {
+        "word": "Jupp\u00e9iste",
+        "category": "politique"
+    },
+    {
+        "word": "Filloniste",
+        "category": "politique"
+    },
+    {
+        "word": "Vallsiste",
+        "category": "politique"
+    },
+    {
+        "word": "Macroniste",
+        "category": "politique"
+    },
+    {
+        "word": "M\u00e9lenchoniste",
+        "category": "politique"
+    },
+    {
+        "word": "Le Pen",
+        "category": "politique"
+    },
+    {
+        "word": "Sarkozy",
+        "category": "politique"
+    },
+    {
+        "word": "Hollande",
+        "category": "politique"
+    },
+    {
+        "word": "Macron",
+        "category": "politique"
+    },
+    {
+        "word": "M\u00e9lenchon",
+        "category": "politique"
+    },
+    {
+        "word": "Royal",
+        "category": "politique"
+    },
+    {
+        "word": "Valls",
+        "category": "politique"
+    },
+    {
+        "word": "Fillon",
+        "category": "politique"
+    },
+    {
+        "word": "Jupp\u00e9",
+        "category": "politique"
+    },
+    {
+        "word": "Bayrou",
+        "category": "politique"
+    },
+    {
+        "word": "Dupont-Aignan",
+        "category": "politique"
+    },
+    {
+        "word": "Poutou",
+        "category": "politique"
+    },
+    {
+        "word": "Arthaud",
+        "category": "politique"
+    },
+    {
+        "word": "Lagarde",
+        "category": "politique"
+    },
+    {
+        "word": "Borloo",
+        "category": "politique"
+    },
+    {
+        "word": "Besancenot",
+        "category": "politique"
+    },
+    {
+        "word": "Cheminade",
+        "category": "politique"
+    },
+    {
+        "word": "Asselineau",
+        "category": "politique"
+    },
+    {
+        "word": "Philippe",
+        "category": "politique"
+    },
+    {
+        "word": "Hidalgo",
+        "category": "politique"
+    },
+    {
+        "word": "Taubira",
+        "category": "politique"
+    },
+    {
+        "word": "Collomb",
+        "category": "politique"
+    },
+    {
+        "word": "Baroin",
+        "category": "politique"
+    },
+    {
+        "word": "Ciotti",
+        "category": "politique"
+    },
+    {
+        "word": "Ruffin",
+        "category": "politique"
+    },
+    {
+        "word": "Quatennens",
+        "category": "politique"
+    },
+    {
+        "word": "Corbi\u00e8re",
+        "category": "politique"
+    },
+    {
+        "word": "Autain",
+        "category": "politique"
+    },
+    {
+        "word": "Boutin",
+        "category": "politique"
+    },
+    {
+        "word": "De Villiers",
+        "category": "politique"
+    },
+    {
+        "word": "Berg\u00e9",
+        "category": "politique"
+    },
+    {
+        "word": "Faure",
+        "category": "politique"
+    },
+    {
+        "word": "Bartolone",
+        "category": "politique"
+    },
+    {
+        "word": "Retailleau",
+        "category": "politique"
+    },
+    {
+        "word": "Jacob",
+        "category": "politique"
+    },
+    {
+        "word": "Wauquiez",
+        "category": "politique"
+    },
+    {
+        "word": "P\u00e9cresse",
+        "category": "politique"
+    },
+    {
+        "word": "Bertrand",
+        "category": "politique"
+    },
+    {
+        "word": "Le Maire",
+        "category": "politique"
+    },
+    {
+        "word": "Darmanin",
+        "category": "politique"
+    },
+    {
+        "word": "Castaner",
+        "category": "politique"
+    },
+    {
+        "word": "Ferrand",
+        "category": "politique"
+    },
+    {
+        "word": "Le Foll",
+        "category": "politique"
+    },
+    {
+        "word": "Montebourg",
+        "category": "politique"
+    },
+    {
+        "word": "Hamon",
+        "category": "politique"
+    },
+    {
+        "word": "Royal",
+        "category": "politique"
+    },
+    {
+        "word": "Aubry",
+        "category": "politique"
+    },
+    {
+        "word": "Borloo",
+        "category": "politique"
+    },
+    {
+        "word": "Baylet",
+        "category": "politique"
+    },
+    {
+        "word": "Cosse",
+        "category": "politique"
+    },
+    {
+        "word": "Plac\u00e9",
+        "category": "politique"
+    },
+    {
+        "word": "De Rugy",
+        "category": "politique"
+    },
+    {
+        "word": "Jadot",
+        "category": "politique"
+    },
+    {
+        "word": "Piolle",
+        "category": "politique"
+    },
+    {
+        "word": "Rivasi",
+        "category": "politique"
+    },
+    {
+        "word": "Bov\u00e9",
+        "category": "politique"
+    },
+    {
+        "word": "Duflot",
+        "category": "politique"
+    },
+    {
+        "word": "Mam\u00e8re",
+        "category": "politique"
+    },
+    {
+        "word": "Cohn-Bendit",
+        "category": "politique"
+    },
+    {
+        "word": "Cazeneuve",
+        "category": "politique"
+    },
+    {
+        "word": "Vidal",
+        "category": "politique"
+    },
+    {
+        "word": "Borne",
+        "category": "politique"
+    },
+    {
+        "word": "Le Drian",
+        "category": "politique"
+    },
+    {
+        "word": "Parly",
+        "category": "politique"
+    },
+    {
+        "word": "Goulard",
+        "category": "politique"
+    },
+    {
+        "word": "Lemoyne",
+        "category": "politique"
+    },
+    {
+        "word": "Lecornu",
+        "category": "politique"
+    },
+    {
+        "word": "Fesneau",
+        "category": "politique"
+    },
+    {
+        "word": "Attal",
+        "category": "politique"
+    },
+    {
+        "word": "Ndiaye",
+        "category": "politique"
+    },
+    {
+        "word": "Schyns",
+        "category": "politique"
+    },
+    {
+        "word": "Moreau",
+        "category": "politique"
+    },
+    {
+        "word": "Buzyn",
+        "category": "politique"
+    },
+    {
+        "word": "Bachelot",
+        "category": "politique"
+    },
+    {
+        "word": "Touraine",
+        "category": "politique"
+    },
+    {
+        "word": "Rossignol",
+        "category": "politique"
+    },
+    {
+        "word": "El Khomri",
+        "category": "politique"
+    },
+    {
+        "word": "Schiappa",
+        "category": "politique"
+    },
+    {
+        "word": "Belloubet",
+        "category": "politique"
+    },
+    {
+        "word": "Dupond-Moretti",
+        "category": "politique"
+    },
+    {
+        "word": "Pompili",
+        "category": "politique"
+    },
+    {
+        "word": "Rugy",
+        "category": "politique"
+    },
+    {
+        "word": "Flessel",
+        "category": "politique"
+    },
+    {
+        "word": "Girardin",
+        "category": "politique"
+    },
+    {
+        "word": "Nyssen",
+        "category": "politique"
+    },
+    {
+        "word": "Franco",
+        "category": "politique"
+    },
+    {
+        "word": "P\u00e9nicaud",
+        "category": "politique"
+    },
+    {
+        "word": "Mounir",
+        "category": "politique"
+    },
+    {
+        "word": "Mahjoubi",
+        "category": "politique"
+    },
+    {
+        "word": "Griveaux",
+        "category": "politique"
+    },
+    {
+        "word": "Philippe",
+        "category": "politique"
+    },
+    {
+        "word": "Lemaire",
+        "category": "politique"
+    },
+    {
+        "word": "Denormandie",
+        "category": "politique"
+    },
+    {
+        "word": "Pannier-Runacher",
+        "category": "politique"
+    },
+    {
+        "word": "Gu\u00e9rini",
+        "category": "politique"
+    },
+    {
+        "word": "Ferracci",
+        "category": "politique"
+    },
+    {
+        "word": "Villani",
+        "category": "politique"
+    },
+    {
+        "word": "Tach\u00e9",
+        "category": "politique"
+    },
+    {
+        "word": "Avia",
+        "category": "politique"
+    },
+    {
+        "word": "Taquet",
+        "category": "politique"
+    },
+    {
+        "word": "Berg\u00e9",
+        "category": "politique"
+    },
+    {
+        "word": "Gosselin",
+        "category": "politique"
+    },
+    {
+        "word": "Abad",
+        "category": "politique"
+    },
+    {
+        "word": "Ciotti",
+        "category": "politique"
+    },
+    {
+        "word": "Larriv\u00e9",
+        "category": "politique"
+    },
+    {
+        "word": "Woerth",
+        "category": "politique"
+    },
+    {
+        "word": "Buffet",
+        "category": "politique"
+    },
+    {
+        "word": "Guaino",
+        "category": "politique"
+    },
+    {
+        "word": "Debr\u00e9",
+        "category": "politique"
+    },
+    {
+        "word": "Lamassoure",
+        "category": "politique"
+    },
+    {
+        "word": "Karoutchi",
+        "category": "politique"
+    },
+    {
+        "word": "Retailleau",
+        "category": "politique"
+    },
+    {
+        "word": "Peltier",
+        "category": "politique"
+    },
+    {
+        "word": "Mariani",
+        "category": "politique"
+    },
+    {
+        "word": "Patriat",
+        "category": "politique"
+    },
+    {
+        "word": "Gu\u00e9rini",
+        "category": "politique"
+    },
+    {
+        "word": "Fasquelle",
+        "category": "politique"
+    },
+    {
+        "word": "Lecornu",
+        "category": "politique"
+    },
+    {
+        "word": "Darrieussecq",
+        "category": "politique"
+    },
+    {
+        "word": "Bussereau",
+        "category": "politique"
+    },
+    {
+        "word": "Dussopt",
+        "category": "politique"
+    },
+    {
+        "word": "Fesneau",
+        "category": "politique"
+    },
+    {
+        "word": "Girardin",
+        "category": "politique"
+    },
+    {
+        "word": "Gourault",
+        "category": "politique"
+    },
+    {
+        "word": "Lecornu",
+        "category": "politique"
+    },
+    {
+        "word": "Lemoyne",
+        "category": "politique"
+    },
+    {
+        "word": "Morin",
+        "category": "politique"
+    },
+    {
+        "word": "vert",
+        "category": "climat"
+    },
+    {
+        "word": "climat",
+        "category": "climat"
+    },
+    {
+        "word": "environnement",
+        "category": "climat"
+    },
+    {
+        "word": "\u00e9cologie",
+        "category": "climat"
+    },
+    {
+        "word": "durabilit\u00e9",
+        "category": "climat"
+    },
+    {
+        "word": "\u00e9missions de carbone",
+        "category": "climat"
+    },
+    {
+        "word": "r\u00e9chauffement global",
+        "category": "climat"
+    },
+    {
+        "word": "effet de serre",
+        "category": "climat"
+    },
+    {
+        "word": "changement climatique",
+        "category": "climat"
+    },
+    {
+        "word": "crise climatique",
+        "category": "climat"
+    },
+    {
+        "word": "urgence climatique",
+        "category": "climat"
+    },
+    {
+        "word": "action pour le climat",
+        "category": "climat"
+    },
+    {
+        "word": "carbone",
+        "category": "climat"
+    },
+    {
+        "word": "gaz \u00e0 effet de serre",
+        "category": "climat"
+    },
+    {
+        "word": "combustibles fossiles",
+        "category": "climat"
+    },
+    {
+        "word": "\u00e9nergie renouvelable",
+        "category": "climat"
+    },
+    {
+        "word": "\u00e9nergie solaire",
+        "category": "climat"
+    },
+    {
+        "word": "\u00e9nergie \u00e9olienne",
+        "category": "climat"
+    },
+    {
+        "word": "d\u00e9forestation",
+        "category": "climat"
+    },
+    {
+        "word": "biodiversit\u00e9",
+        "category": "climat"
+    },
+    {
+        "word": "extinction",
+        "category": "climat"
+    },
+    {
+        "word": "pollution",
+        "category": "climat"
+    },
+    {
+        "word": "plastique",
+        "category": "climat"
+    },
+    {
+        "word": "recyclage",
+        "category": "climat"
+    },
+    {
+        "word": "oc\u00e9an",
+        "category": "climat"
+    },
+    {
+        "word": "mer",
+        "category": "climat"
+    },
+    {
+        "word": "for\u00eat",
+        "category": "climat"
+    },
+    {
+        "word": "faune",
+        "category": "climat"
+    },
+    {
+        "word": "animal",
+        "category": "climat"
+    },
+    {
+        "word": "plante",
+        "category": "climat"
+    },
+    {
+        "word": "terre",
+        "category": "climat"
+    },
+    {
+        "word": "plan\u00e8te",
+        "category": "climat"
+    },
+    {
+        "word": "durable",
+        "category": "climat"
+    },
+    {
+        "word": "d\u00e9veloppement durable",
+        "category": "climat"
+    },
+    {
+        "word": "changement climatique",
+        "category": "climat"
+    },
+    {
+        "word": "r\u00e9chauffement global",
+        "category": "climat"
+    },
+    {
+        "word": "empreinte carbone",
+        "category": "climat"
+    },
+    {
+        "word": "gaz \u00e0 effet de serre",
+        "category": "climat"
+    },
+    {
+        "word": "combustibles fossiles",
+        "category": "climat"
+    },
+    {
+        "word": "\u00e9nergie renouvelable",
+        "category": "climat"
+    },
+    {
+        "word": "\u00e9nergie solaire",
+        "category": "climat"
+    },
+    {
+        "word": "\u00e9nergie \u00e9olienne",
+        "category": "climat"
+    },
+    {
+        "word": "hydro\u00e9lectrique",
+        "category": "climat"
+    },
+    {
+        "word": "biomasse",
+        "category": "climat"
+    },
+    {
+        "word": "durabilit\u00e9",
+        "category": "climat"
+    },
+    {
+        "word": "conservation",
+        "category": "climat"
+    },
+    {
+        "word": "biodiversit\u00e9",
+        "category": "climat"
+    },
+    {
+        "word": "d\u00e9forestation",
+        "category": "climat"
+    },
+    {
+        "word": "reforestation",
+        "category": "climat"
+    },
+    {
+        "word": "pollution",
+        "category": "climat"
+    },
+    {
+        "word": "qualit\u00e9 de l'air",
+        "category": "climat"
+    },
+    {
+        "word": "acidification des oc\u00e9ans",
+        "category": "climat"
+    },
+    {
+        "word": "fonte des glaciers",
+        "category": "climat"
+    },
+    {
+        "word": "\u00e9l\u00e9vation du niveau de la mer",
+        "category": "climat"
+    },
+    {
+        "word": "extinction",
+        "category": "climat"
+    },
+    {
+        "word": "esp\u00e8ces en danger",
+        "category": "climat"
+    },
+    {
+        "word": "perte d'habitat",
+        "category": "climat"
+    },
+    {
+        "word": "\u00e9cosyst\u00e8mes",
+        "category": "climat"
+    },
+    {
+        "word": "recyclage",
+        "category": "climat"
+    },
+    {
+        "word": "compostage",
+        "category": "climat"
+    },
+    {
+        "word": "z\u00e9ro d\u00e9chet",
+        "category": "climat"
+    },
+    {
+        "word": "politique environnementale",
+        "category": "climat"
+    },
+    {
+        "word": "Protocole de Kyoto",
+        "category": "climat"
+    },
+    {
+        "word": "Accord de Paris",
+        "category": "climat"
+    },
+    {
+        "word": "CCNUCC",
+        "category": "climat"
+    },
+    {
+        "word": "COP26",
+        "category": "climat"
+    },
+    {
+        "word": "\u00e9cologique",
+        "category": "climat"
+    },
+    {
+        "word": "d\u00e9veloppement durable",
+        "category": "climat"
+    },
+    {
+        "word": "neutre en carbone",
+        "category": "climat"
+    },
+    {
+        "word": "compensation carbone",
+        "category": "climat"
+    },
+    {
+        "word": "g\u00e9o-ing\u00e9nierie",
+        "category": "climat"
+    },
+    {
+        "word": "adaptation climatique",
+        "category": "climat"
+    },
+    {
+        "word": "march\u00e9 des \u00e9missions",
+        "category": "climat"
+    },
+    {
+        "word": "taxe carbone",
+        "category": "climat"
+    },
+    {
+        "word": "technologie verte",
+        "category": "climat"
+    },
+    {
+        "word": "\u00e9nergie propre",
+        "category": "climat"
+    },
+    {
+        "word": "efficacit\u00e9 \u00e9nerg\u00e9tique",
+        "category": "climat"
+    },
+    {
+        "word": "v\u00e9hicules \u00e9lectriques",
+        "category": "climat"
+    },
+    {
+        "word": "transports publics",
+        "category": "climat"
+    },
+    {
+        "word": "v\u00e9lo",
+        "category": "climat"
+    },
+    {
+        "word": "marche",
+        "category": "climat"
+    },
+    {
+        "word": "urbanisme",
+        "category": "climat"
+    },
+    {
+        "word": "espaces verts",
+        "category": "climat"
+    },
+    {
+        "word": "foresterie urbaine",
+        "category": "climat"
+    },
+    {
+        "word": "permaculture",
+        "category": "climat"
+    },
+    {
+        "word": "agriculture biologique",
+        "category": "climat"
+    },
+    {
+        "word": "agro\u00e9cologie",
+        "category": "climat"
+    },
+    {
+        "word": "kilom\u00e8tres alimentaires",
+        "category": "climat"
+    },
+    {
+        "word": "p\u00eache durable",
+        "category": "climat"
+    },
+    {
+        "word": "r\u00e9serves marines",
+        "category": "climat"
+    },
+    {
+        "word": "r\u00e9cifs coralliens",
+        "category": "climat"
+    },
+    {
+        "word": "\u00e9colos",
+        "category": "climat"
+    },
+    {
+        "word": "verts",
+        "category": "climat"
+    },
+    {
+        "word": "\u00e9cologistes",
+        "category": "climat"
+    },
+    {
+        "word": "climatologues",
+        "category": "climat"
+    },
+    {
+        "word": "activistes",
+        "category": "climat"
+    },
+    {
+        "word": "sport",
+        "category": "sport"
+    },
+    {
+        "word": "athl\u00e8te",
+        "category": "sport"
+    },
+    {
+        "word": "comp\u00e9tition",
+        "category": "sport"
+    },
+    {
+        "word": "tournoi",
+        "category": "sport"
+    },
+    {
+        "word": "match",
+        "category": "sport"
+    },
+    {
+        "word": "partie",
+        "category": "sport"
+    },
+    {
+        "word": "victoire",
+        "category": "sport"
+    },
+    {
+        "word": "d\u00e9faite",
+        "category": "sport"
+    },
+    {
+        "word": "record",
+        "category": "sport"
+    },
+    {
+        "word": "exploit",
+        "category": "sport"
+    },
+    {
+        "word": "m\u00e9daille",
+        "category": "sport"
+    },
+    {
+        "word": "podium",
+        "category": "sport"
+    },
+    {
+        "word": "champion",
+        "category": "sport"
+    },
+    {
+        "word": "championnat",
+        "category": "sport"
+    },
+    {
+        "word": "ligue",
+        "category": "sport"
+    },
+    {
+        "word": "\u00e9quipe",
+        "category": "sport"
+    },
+    {
+        "word": "joueur",
+        "category": "sport"
+    },
+    {
+        "word": "entra\u00eeneur",
+        "category": "sport"
+    },
+    {
+        "word": "manager",
+        "category": "sport"
+    },
+    {
+        "word": "stade",
+        "category": "sport"
+    },
+    {
+        "word": "piste",
+        "category": "sport"
+    },
+    {
+        "word": "terrain",
+        "category": "sport"
+    },
+    {
+        "word": "balle",
+        "category": "sport"
+    },
+    {
+        "word": "balle",
+        "category": "sport"
+    },
+    {
+        "word": "raquette",
+        "category": "sport"
+    },
+    {
+        "word": "golf",
+        "category": "sport"
+    },
+    {
+        "word": "tennis",
+        "category": "sport"
+    },
+    {
+        "word": "football",
+        "category": "sport"
+    },
+    {
+        "word": "basket-ball",
+        "category": "sport"
+    },
+    {
+        "word": "rugby",
+        "category": "sport"
+    },
+    {
+        "word": "volley-ball",
+        "category": "sport"
+    },
+    {
+        "word": "handball",
+        "category": "sport"
+    },
+    {
+        "word": "baseball",
+        "category": "sport"
+    },
+    {
+        "word": "hockey",
+        "category": "sport"
+    },
+    {
+        "word": "natation",
+        "category": "sport"
+    },
+    {
+        "word": "athl\u00e9tisme",
+        "category": "sport"
+    },
+    {
+        "word": "cyclisme",
+        "category": "sport"
+    },
+    {
+        "word": "boxe",
+        "category": "sport"
+    },
+    {
+        "word": "marathon",
+        "category": "sport"
+    },
+    {
+        "word": "triathlon",
+        "category": "sport"
+    },
+    {
+        "word": "escalade",
+        "category": "sport"
+    },
+    {
+        "word": "ski",
+        "category": "sport"
+    },
+    {
+        "word": "snowboard",
+        "category": "sport"
+    },
+    {
+        "word": "patinage",
+        "category": "sport"
+    },
+    {
+        "word": "plong\u00e9e",
+        "category": "sport"
+    },
+    {
+        "word": "gymnastique",
+        "category": "sport"
+    },
+    {
+        "word": "halt\u00e9rophilie",
+        "category": "sport"
+    },
+    {
+        "word": "lutte",
+        "category": "sport"
+    },
+    {
+        "word": "culturophysique",
+        "category": "sport"
+    },
+    {
+        "word": "karat\u00e9",
+        "category": "sport"
+    },
+    {
+        "word": "judo",
+        "category": "sport"
+    },
+    {
+        "word": "taekwondo",
+        "category": "sport"
+    },
+    {
+        "word": "lutte",
+        "category": "sport"
+    },
+    {
+        "word": "tennis de table",
+        "category": "sport"
+    },
+    {
+        "word": "badminton",
+        "category": "sport"
+    },
+    {
+        "word": "squash",
+        "category": "sport"
+    },
+    {
+        "word": "billard",
+        "category": "sport"
+    },
+    {
+        "word": "\u00e9checs",
+        "category": "sport"
+    },
+    {
+        "word": "olympique",
+        "category": "sport"
+    },
+    {
+        "word": "paralympique",
+        "category": "sport"
+    },
+    {
+        "word": "jeux",
+        "category": "sport"
+    },
+    {
+        "word": "f\u00e9d\u00e9ration",
+        "category": "sport"
+    },
+    {
+        "word": "athl\u00e9tisme",
+        "category": "sport"
+    },
+    {
+        "word": "conf\u00e9d\u00e9ration",
+        "category": "sport"
+    },
+    {
+        "word": "sportif",
+        "category": "sport"
+    },
+    {
+        "word": "coupe",
+        "category": "sport"
+    },
+    {
+        "word": "grand",
+        "category": "sport"
+    },
+    {
+        "word": "chelem",
+        "category": "sport"
+    },
+    {
+        "word": "ma\u00eetres",
+        "category": "sport"
+    },
+    {
+        "word": "dopage",
+        "category": "sport"
+    },
+    {
+        "word": "antidopage",
+        "category": "sport"
+    },
+    {
+        "word": "disqualification",
+        "category": "sport"
+    },
+    {
+        "word": "arbitre",
+        "category": "sport"
+    },
+    {
+        "word": "arbitrage",
+        "category": "sport"
+    },
+    {
+        "word": "carte",
+        "category": "sport"
+    },
+    {
+        "word": "p\u00e9nalit\u00e9",
+        "category": "sport"
+    },
+    {
+        "word": "hors-jeu",
+        "category": "sport"
+    },
+    {
+        "word": "but",
+        "category": "sport"
+    },
+    {
+        "word": "essai",
+        "category": "sport"
+    },
+    {
+        "word": "panier",
+        "category": "sport"
+    },
+    {
+        "word": "athl\u00e9tisme",
+        "category": "sport"
+    },
+    {
+        "word": "Real Madrid",
+        "category": "sport"
+    },
+    {
+        "word": "Barcelone",
+        "category": "sport"
+    },
+    {
+        "word": "PSG",
+        "category": "sport"
+    },
+    {
+        "word": "Marseille",
+        "category": "sport"
+    },
+    {
+        "word": "Lyon",
+        "category": "sport"
+    },
+    {
+        "word": "Lille",
+        "category": "sport"
+    },
+    {
+        "word": "Monaco",
+        "category": "sport"
+    },
+    {
+        "word": "Girondins",
+        "category": "sport"
+    },
+    {
+        "word": "Liverpool",
+        "category": "sport"
+    },
+    {
+        "word": "Super Bowl",
+        "category": "sport"
+    },
+    {
+        "word": "NFL",
+        "category": "sport"
+    },
+    {
+        "word": "victoire",
+        "category": "sport"
+    },
+    {
+        "word": "Super Bowl",
+        "category": "sport"
+    },
+    {
+        "word": "Bowl",
+        "category": "sport"
+    },
+    {
+        "word": "CAN",
+        "category": "sport"
+    },
+    {
+        "word": "culture",
+        "category": "culture"
+    },
+    {
+        "word": "art",
+        "category": "culture"
+    },
+    {
+        "word": "musique",
+        "category": "culture"
+    },
+    {
+        "word": "cin\u00e9ma",
+        "category": "culture"
+    },
+    {
+        "word": "th\u00e9\u00e2tre",
+        "category": "culture"
+    },
+    {
+        "word": "danse",
+        "category": "culture"
+    },
+    {
+        "word": "op\u00e9ra",
+        "category": "culture"
+    },
+    {
+        "word": "photographie",
+        "category": "culture"
+    },
+    {
+        "word": "peinture",
+        "category": "culture"
+    },
+    {
+        "word": "sculpture",
+        "category": "culture"
+    },
+    {
+        "word": "architecture",
+        "category": "culture"
+    },
+    {
+        "word": "design",
+        "category": "culture"
+    },
+    {
+        "word": "mode",
+        "category": "culture"
+    },
+    {
+        "word": "litt\u00e9rature",
+        "category": "culture"
+    },
+    {
+        "word": "po\u00e9sie",
+        "category": "culture"
+    },
+    {
+        "word": "roman",
+        "category": "culture"
+    },
+    {
+        "word": "essai",
+        "category": "culture"
+    },
+    {
+        "word": "critique",
+        "category": "culture"
+    },
+    {
+        "word": "festival",
+        "category": "culture"
+    },
+    {
+        "word": "exposition",
+        "category": "culture"
+    },
+    {
+        "word": "galerie",
+        "category": "culture"
+    },
+    {
+        "word": "mus\u00e9e",
+        "category": "culture"
+    },
+    {
+        "word": "patrimoine",
+        "category": "culture"
+    },
+    {
+        "word": "tradition",
+        "category": "culture"
+    },
+    {
+        "word": "folklore",
+        "category": "culture"
+    },
+    {
+        "word": "identit\u00e9",
+        "category": "culture"
+    },
+    {
+        "word": "diversit\u00e9",
+        "category": "culture"
+    },
+    {
+        "word": "cr\u00e9ativit\u00e9",
+        "category": "culture"
+    },
+    {
+        "word": "inspiration",
+        "category": "culture"
+    },
+    {
+        "word": "innovation",
+        "category": "culture"
+    },
+    {
+        "word": "avant-garde",
+        "category": "culture"
+    },
+    {
+        "word": "mouvement",
+        "category": "culture"
+    },
+    {
+        "word": "artistique",
+        "category": "culture"
+    },
+    {
+        "word": "\u00e9ducation",
+        "category": "culture"
+    },
+    {
+        "word": "histoire",
+        "category": "culture"
+    },
+    {
+        "word": "esth\u00e9tique",
+        "category": "culture"
+    },
+    {
+        "word": "anthropologie",
+        "category": "culture"
+    },
+    {
+        "word": "sociologie",
+        "category": "culture"
+    },
+    {
+        "word": "philosophie",
+        "category": "culture"
+    },
+    {
+        "word": "expression",
+        "category": "culture"
+    },
+    {
+        "word": "interpr\u00e9tation",
+        "category": "culture"
+    },
+    {
+        "word": "beaut\u00e9",
+        "category": "culture"
+    },
+    {
+        "word": "\u00e9motion",
+        "category": "culture"
+    },
+    {
+        "word": "sensibilit\u00e9",
+        "category": "culture"
+    },
+    {
+        "word": "perception",
+        "category": "culture"
+    },
+    {
+        "word": "r\u00e9ception",
+        "category": "culture"
+    },
+    {
+        "word": "contemplation",
+        "category": "culture"
+    },
+    {
+        "word": "th\u00e9orie",
+        "category": "culture"
+    },
+    {
+        "word": "cin\u00e9matographie",
+        "category": "culture"
+    },
+    {
+        "word": "dramaturgie",
+        "category": "culture"
+    },
+    {
+        "word": "performance",
+        "category": "culture"
+    },
+    {
+        "word": "spectateur",
+        "category": "culture"
+    },
+    {
+        "word": "public",
+        "category": "culture"
+    },
+    {
+        "word": "sc\u00e9nographie",
+        "category": "culture"
+    },
+    {
+        "word": "r\u00e9alisation",
+        "category": "culture"
+    },
+    {
+        "word": "acteur",
+        "category": "culture"
+    },
+    {
+        "word": "actrice",
+        "category": "culture"
+    },
+    {
+        "word": "r\u00e9alisateur",
+        "category": "culture"
+    },
+    {
+        "word": "chor\u00e9graphe",
+        "category": "culture"
+    },
+    {
+        "word": "chanteur",
+        "category": "culture"
+    },
+    {
+        "word": "compositeur",
+        "category": "culture"
+    },
+    {
+        "word": "musicien",
+        "category": "culture"
+    },
+    {
+        "word": "interpr\u00e8te",
+        "category": "culture"
+    },
+    {
+        "word": "repr\u00e9sentation",
+        "category": "culture"
+    },
+    {
+        "word": "documentaire",
+        "category": "culture"
+    },
+    {
+        "word": "animation",
+        "category": "culture"
+    },
+    {
+        "word": "r\u00e9alisme",
+        "category": "culture"
+    },
+    {
+        "word": "symbolisme",
+        "category": "culture"
+    },
+    {
+        "word": "impressionnisme",
+        "category": "culture"
+    },
+    {
+        "word": "expressionnisme",
+        "category": "culture"
+    },
+    {
+        "word": "cubisme",
+        "category": "culture"
+    },
+    {
+        "word": "surr\u00e9alisme",
+        "category": "culture"
+    },
+    {
+        "word": "baroque",
+        "category": "culture"
+    },
+    {
+        "word": "renaissance",
+        "category": "culture"
+    },
+    {
+        "word": "minimalisme",
+        "category": "culture"
+    },
+    {
+        "word": "n\u00e9oclassicisme",
+        "category": "culture"
+    },
+    {
+        "word": "modernisme",
+        "category": "culture"
+    },
+    {
+        "word": "postmodernisme",
+        "category": "culture"
+    },
+    {
+        "word": "romantisme",
+        "category": "culture"
+    },
+    {
+        "word": "classicisme",
+        "category": "culture"
+    },
+    {
+        "word": "contemporain",
+        "category": "culture"
+    },
+    {
+        "word": "th\u00e9\u00e2tral",
+        "category": "culture"
+    },
+    {
+        "word": "mise en sc\u00e8ne",
+        "category": "culture"
+    },
+    {
+        "word": "dramaturge",
+        "category": "culture"
+    },
+    {
+        "word": "r\u00e9pertoire th\u00e9\u00e2tral",
+        "category": "culture"
+    },
+    {
+        "word": "acte",
+        "category": "culture"
+    },
+    {
+        "word": "sc\u00e8ne",
+        "category": "culture"
+    },
+    {
+        "word": "com\u00e9die",
+        "category": "culture"
+    },
+    {
+        "word": "trag\u00e9die",
+        "category": "culture"
+    },
+    {
+        "word": "drame",
+        "category": "culture"
+    },
+    {
+        "word": "farce",
+        "category": "culture"
+    },
+    {
+        "word": "ballet",
+        "category": "culture"
+    },
+    {
+        "word": "classique",
+        "category": "culture"
+    },
+    {
+        "word": "jazz",
+        "category": "culture"
+    },
+    {
+        "word": "hip-hop",
+        "category": "culture"
+    },
+    {
+        "word": "folklorique",
+        "category": "culture"
+    },
+    {
+        "word": "traditionnel",
+        "category": "culture"
+    },
+    {
+        "word": "musical",
+        "category": "culture"
+    },
+    {
+        "word": "orchestre",
+        "category": "culture"
+    },
+    {
+        "word": "concert",
+        "category": "culture"
+    },
+    {
+        "word": "symphonie",
+        "category": "culture"
+    },
+    {
+        "word": "sonate",
+        "category": "culture"
+    },
+    {
+        "word": "rock",
+        "category": "culture"
+    },
+    {
+        "word": "pop",
+        "category": "culture"
+    },
+    {
+        "word": "blues",
+        "category": "culture"
+    },
+    {
+        "word": "rap",
+        "category": "culture"
+    },
+    {
+        "word": "\u00e9lectronique",
+        "category": "culture"
+    },
+    {
+        "word": "exp\u00e9rimental",
+        "category": "culture"
+    },
+    {
+        "word": "world",
+        "category": "culture"
+    },
+    {
+        "word": "reggae",
+        "category": "culture"
+    },
+    {
+        "word": "funk",
+        "category": "culture"
+    },
+    {
+        "word": "indie",
+        "category": "culture"
+    },
+    {
+        "word": "alternatif",
+        "category": "culture"
+    },
+    {
+        "word": "techno",
+        "category": "culture"
+    },
+    {
+        "word": "performance",
+        "category": "culture"
+    },
+    {
+        "word": "installation",
+        "category": "culture"
+    },
+    {
+        "word": "chef-d'\u0153uvre",
+        "category": "culture"
+    },
+    {
+        "word": "exposition",
+        "category": "culture"
+    },
+    {
+        "word": "r\u00e9trospective",
+        "category": "culture"
+    },
+    {
+        "word": "international",
+        "category": "culture"
+    },
+    {
+        "word": "national",
+        "category": "culture"
+    },
+    {
+        "word": "local",
+        "category": "culture"
+    },
+    {
+        "word": "repr\u00e9sentation",
+        "category": "culture"
+    },
+    {
+        "word": "th\u00e9\u00e2trale",
+        "category": "culture"
+    },
+    {
+        "word": "musicale",
+        "category": "culture"
+    },
+    {
+        "word": "chor\u00e9graphique",
+        "category": "culture"
+    },
+    {
+        "word": "artistique",
+        "category": "culture"
+    },
+    {
+        "word": "\u00e9v\u00e9nement",
+        "category": "culture"
+    },
+    {
+        "word": "populaire",
+        "category": "culture"
+    },
+    {
+        "word": "culturel",
+        "category": "culture"
+    },
+    {
+        "word": "saison",
+        "category": "culture"
+    },
+    {
+        "word": "semaine culturelle",
+        "category": "culture"
+    },
+    {
+        "word": "journ\u00e9e culturelle",
+        "category": "culture"
+    },
+    {
+        "word": "mus\u00e9e",
+        "category": "culture"
+    },
+    {
+        "word": "visite guid\u00e9e",
+        "category": "culture"
+    },
+    {
+        "word": "interactive",
+        "category": "culture"
+    },
+    {
+        "word": "immersif",
+        "category": "culture"
+    },
+    {
+        "word": "virtuel",
+        "category": "culture"
+    },
+    {
+        "word": "activit\u00e9 familiale",
+        "category": "culture"
+    },
+    {
+        "word": "performance culturelle",
+        "category": "culture"
+    },
+    {
+        "word": "concert culturel",
+        "category": "culture"
+    },
+    {
+        "word": "projection culturelle",
+        "category": "culture"
+    },
+    {
+        "word": "d\u00e9bat",
+        "category": "culture"
+    },
+    {
+        "word": "conf\u00e9rence",
+        "category": "culture"
+    },
+    {
+        "word": "s\u00e9minaire",
+        "category": "culture"
+    },
+    {
+        "word": "forum",
+        "category": "culture"
+    },
+    {
+        "word": "atelier",
+        "category": "culture"
+    },
+    {
+        "word": "masterclass",
+        "category": "culture"
+    },
+    {
+        "word": "rencontre artistique",
+        "category": "culture"
+    },
+    {
+        "word": "litt\u00e9raire",
+        "category": "culture"
+    },
+    {
+        "word": "cin\u00e9matographique",
+        "category": "culture"
+    },
+    {
+        "word": "th\u00e9matique",
+        "category": "culture"
+    },
+    {
+        "word": "interculturel",
+        "category": "culture"
+    },
+    {
+        "word": "professionnel",
+        "category": "culture"
+    },
+    {
+        "word": "artiste",
+        "category": "culture"
+    },
+    {
+        "word": "auteur",
+        "category": "culture"
+    },
+    {
+        "word": "cin\u00e9aste",
+        "category": "culture"
+    },
+    {
+        "word": "choregraphe",
+        "category": "culture"
+    },
+    {
+        "word": "musicien",
+        "category": "culture"
+    },
+    {
+        "word": "com\u00e9dien",
+        "category": "culture"
+    },
+    {
+        "word": "Taylor Swift",
+        "category": "culture"
+    },
+    {
+        "word": "Swift",
+        "category": "culture"
+    },
+    {
+        "word": "Kanye West",
+        "category": "culture"
+    },
+    {
+        "word": "Rihanna",
+        "category": "culture"
+    },
+    {
+        "word": "Beyonce",
+        "category": "culture"
+    },
+    {
+        "word": "pop",
+        "category": "culture"
+    },
+    {
+        "word": "rap",
+        "category": "culture"
+    },
+    {
+        "word": "song",
+        "category": "culture"
+    },
+    {
+        "word": "album",
+        "category": "culture"
+    },
+    {
+        "word": "Macron",
+        "category": "france"
+    },
+    {
+        "word": "d",
+        "category": "stopword"
+    },
+    {
+        "word": "\u00eates",
+        "category": "stopword"
+    },
+    {
+        "word": "ton",
+        "category": "stopword"
+    },
+    {
+        "word": "fussions",
+        "category": "stopword"
+    },
+    {
+        "word": "leur",
+        "category": "stopword"
+    },
+    {
+        "word": "ayantes",
+        "category": "stopword"
+    },
+    {
+        "word": "dans",
+        "category": "stopword"
+    },
+    {
+        "word": "f\u00fbt",
+        "category": "stopword"
+    },
+    {
+        "word": "ma",
+        "category": "stopword"
+    },
+    {
+        "word": "fussiez",
+        "category": "stopword"
+    },
+    {
+        "word": "aurions",
+        "category": "stopword"
+    },
+    {
+        "word": "nos",
+        "category": "stopword"
+    },
+    {
+        "word": "auront",
+        "category": "stopword"
+    },
+    {
+        "word": "ai",
+        "category": "stopword"
+    },
+    {
+        "word": "avions",
+        "category": "stopword"
+    },
+    {
+        "word": "aux",
+        "category": "stopword"
+    },
+    {
+        "word": "\u00e9tiez",
+        "category": "stopword"
+    },
+    {
+        "word": "fusses",
+        "category": "stopword"
+    },
+    {
+        "word": "aurez",
+        "category": "stopword"
+    },
+    {
+        "word": "des",
+        "category": "stopword"
+    },
+    {
+        "word": "auriez",
+        "category": "stopword"
+    },
+    {
+        "word": "sera",
+        "category": "stopword"
+    },
+    {
+        "word": "serais",
+        "category": "stopword"
+    },
+    {
+        "word": "ta",
+        "category": "stopword"
+    },
+    {
+        "word": "\u00e9tant",
+        "category": "stopword"
+    },
+    {
+        "word": "eux",
+        "category": "stopword"
+    },
+    {
+        "word": "\u00e9t\u00e9es",
+        "category": "stopword"
+    },
+    {
+        "word": "et",
+        "category": "stopword"
+    },
+    {
+        "word": "fussent",
+        "category": "stopword"
+    },
+    {
+        "word": "eusses",
+        "category": "stopword"
+    },
+    {
+        "word": "eu",
+        "category": "stopword"
+    },
+    {
+        "word": "serait",
+        "category": "stopword"
+    },
+    {
+        "word": "eues",
+        "category": "stopword"
+    },
+    {
+        "word": "par",
+        "category": "stopword"
+    },
+    {
+        "word": "\u00e9tante",
+        "category": "stopword"
+    },
+    {
+        "word": "aurons",
+        "category": "stopword"
+    },
+    {
+        "word": "\u00e9tais",
+        "category": "stopword"
+    },
+    {
+        "word": "au",
+        "category": "stopword"
+    },
+    {
+        "word": "serai",
+        "category": "stopword"
+    },
+    {
+        "word": "est",
+        "category": "stopword"
+    },
+    {
+        "word": "la",
+        "category": "stopword"
+    },
+    {
+        "word": "sommes",
+        "category": "stopword"
+    },
+    {
+        "word": "seras",
+        "category": "stopword"
+    },
+    {
+        "word": "me",
+        "category": "stopword"
+    },
+    {
+        "word": "il",
+        "category": "stopword"
+    },
+    {
+        "word": "mon",
+        "category": "stopword"
+    },
+    {
+        "word": "eusse",
+        "category": "stopword"
+    },
+    {
+        "word": "ayante",
+        "category": "stopword"
+    },
+    {
+        "word": "seriez",
+        "category": "stopword"
+    },
+    {
+        "word": "je",
+        "category": "stopword"
+    },
+    {
+        "word": "soit",
+        "category": "stopword"
+    },
+    {
+        "word": "fut",
+        "category": "stopword"
+    },
+    {
+        "word": "eut",
+        "category": "stopword"
+    },
+    {
+        "word": "\u00e9tions",
+        "category": "stopword"
+    },
+    {
+        "word": "as",
+        "category": "stopword"
+    },
+    {
+        "word": "tes",
+        "category": "stopword"
+    },
+    {
+        "word": "avons",
+        "category": "stopword"
+    },
+    {
+        "word": "auras",
+        "category": "stopword"
+    },
+    {
+        "word": "aviez",
+        "category": "stopword"
+    },
+    {
+        "word": "qui",
+        "category": "stopword"
+    },
+    {
+        "word": "auraient",
+        "category": "stopword"
+    },
+    {
+        "word": "m",
+        "category": "stopword"
+    },
+    {
+        "word": "\u00e9tants",
+        "category": "stopword"
+    },
+    {
+        "word": "sur",
+        "category": "stopword"
+    },
+    {
+        "word": "du",
+        "category": "stopword"
+    },
+    {
+        "word": "s",
+        "category": "stopword"
+    },
+    {
+        "word": "eue",
+        "category": "stopword"
+    },
+    {
+        "word": "soient",
+        "category": "stopword"
+    },
+    {
+        "word": "ayant",
+        "category": "stopword"
+    },
+    {
+        "word": "\u00e9tait",
+        "category": "stopword"
+    },
+    {
+        "word": "soyons",
+        "category": "stopword"
+    },
+    {
+        "word": "ayez",
+        "category": "stopword"
+    },
+    {
+        "word": "aura",
+        "category": "stopword"
+    },
+    {
+        "word": "mais",
+        "category": "stopword"
+    },
+    {
+        "word": "de",
+        "category": "stopword"
+    },
+    {
+        "word": "ou",
+        "category": "stopword"
+    },
+    {
+        "word": "que",
+        "category": "stopword"
+    },
+    {
+        "word": "e\u00fbtes",
+        "category": "stopword"
+    },
+    {
+        "word": "ces",
+        "category": "stopword"
+    },
+    {
+        "word": "en",
+        "category": "stopword"
+    },
+    {
+        "word": "ont",
+        "category": "stopword"
+    },
+    {
+        "word": "aurais",
+        "category": "stopword"
+    },
+    {
+        "word": "serons",
+        "category": "stopword"
+    },
+    {
+        "word": "ayons",
+        "category": "stopword"
+    },
+    {
+        "word": "moi",
+        "category": "stopword"
+    },
+    {
+        "word": "aurait",
+        "category": "stopword"
+    },
+    {
+        "word": "son",
+        "category": "stopword"
+    },
+    {
+        "word": "\u00e0",
+        "category": "stopword"
+    },
+    {
+        "word": "avais",
+        "category": "stopword"
+    },
+    {
+        "word": "lui",
+        "category": "stopword"
+    },
+    {
+        "word": "m\u00eame",
+        "category": "stopword"
+    },
+    {
+        "word": "t",
+        "category": "stopword"
+    },
+    {
+        "word": "fus",
+        "category": "stopword"
+    },
+    {
+        "word": "\u00e9t\u00e9s",
+        "category": "stopword"
+    },
+    {
+        "word": "sa",
+        "category": "stopword"
+    },
+    {
+        "word": "seraient",
+        "category": "stopword"
+    },
+    {
+        "word": "aies",
+        "category": "stopword"
+    },
+    {
+        "word": "eussent",
+        "category": "stopword"
+    },
+    {
+        "word": "pas",
+        "category": "stopword"
+    },
+    {
+        "word": "sois",
+        "category": "stopword"
+    },
+    {
+        "word": "qu",
+        "category": "stopword"
+    },
+    {
+        "word": "soyez",
+        "category": "stopword"
+    },
+    {
+        "word": "l",
+        "category": "stopword"
+    },
+    {
+        "word": "serions",
+        "category": "stopword"
+    },
+    {
+        "word": "j",
+        "category": "stopword"
+    },
+    {
+        "word": "elle",
+        "category": "stopword"
+    },
+    {
+        "word": "se",
+        "category": "stopword"
+    },
+    {
+        "word": "ayants",
+        "category": "stopword"
+    },
+    {
+        "word": "f\u00fbtes",
+        "category": "stopword"
+    },
+    {
+        "word": "vous",
+        "category": "stopword"
+    },
+    {
+        "word": "n",
+        "category": "stopword"
+    },
+    {
+        "word": "\u00e9tantes",
+        "category": "stopword"
+    },
+    {
+        "word": "\u00e9taient",
+        "category": "stopword"
+    },
+    {
+        "word": "c",
+        "category": "stopword"
+    },
+    {
+        "word": "avec",
+        "category": "stopword"
+    },
+    {
+        "word": "ce",
+        "category": "stopword"
+    },
+    {
+        "word": "votre",
+        "category": "stopword"
+    },
+    {
+        "word": "on",
+        "category": "stopword"
+    },
+    {
+        "word": "ils",
+        "category": "stopword"
+    },
+    {
+        "word": "le",
+        "category": "stopword"
+    },
+    {
+        "word": "pour",
+        "category": "stopword"
+    },
+    {
+        "word": "es",
+        "category": "stopword"
+    },
+    {
+        "word": "seront",
+        "category": "stopword"
+    },
+    {
+        "word": "eussiez",
+        "category": "stopword"
+    },
+    {
+        "word": "eurent",
+        "category": "stopword"
+    },
+    {
+        "word": "les",
+        "category": "stopword"
+    },
+    {
+        "word": "un",
+        "category": "stopword"
+    },
+    {
+        "word": "une",
+        "category": "stopword"
+    },
+    {
+        "word": "tu",
+        "category": "stopword"
+    },
+    {
+        "word": "aient",
+        "category": "stopword"
+    },
+    {
+        "word": "sont",
+        "category": "stopword"
+    },
+    {
+        "word": "e\u00fbt",
+        "category": "stopword"
+    },
+    {
+        "word": "furent",
+        "category": "stopword"
+    },
+    {
+        "word": "vos",
+        "category": "stopword"
+    },
+    {
+        "word": "te",
+        "category": "stopword"
+    },
+    {
+        "word": "suis",
+        "category": "stopword"
+    },
+    {
+        "word": "ses",
+        "category": "stopword"
+    },
+    {
+        "word": "nous",
+        "category": "stopword"
+    },
+    {
+        "word": "\u00e9t\u00e9e",
+        "category": "stopword"
+    },
+    {
+        "word": "y",
+        "category": "stopword"
+    },
+    {
+        "word": "avait",
+        "category": "stopword"
+    },
+    {
+        "word": "serez",
+        "category": "stopword"
+    },
+    {
+        "word": "ait",
+        "category": "stopword"
+    },
+    {
+        "word": "eus",
+        "category": "stopword"
+    },
+    {
+        "word": "avaient",
+        "category": "stopword"
+    },
+    {
+        "word": "toi",
+        "category": "stopword"
+    },
+    {
+        "word": "aie",
+        "category": "stopword"
+    },
+    {
+        "word": "\u00e9t\u00e9",
+        "category": "stopword"
+    },
+    {
+        "word": "f\u00fbmes",
+        "category": "stopword"
+    },
+    {
+        "word": "notre",
+        "category": "stopword"
+    },
+    {
+        "word": "eussions",
+        "category": "stopword"
+    },
+    {
+        "word": "aurai",
+        "category": "stopword"
+    },
+    {
+        "word": "e\u00fbmes",
+        "category": "stopword"
+    },
+    {
+        "word": "ne",
+        "category": "stopword"
+    },
+    {
+        "word": "fusse",
+        "category": "stopword"
+    },
+    {
+        "word": "avez",
+        "category": "stopword"
+    },
+    {
+        "word": "mes",
+        "category": "stopword"
+    },
+    {
+        "word": "a",
+        "category": "stopword"
+    },
+    {
+        "word": "afin",
+        "category": "stopword"
+    },
+    {
+        "word": "ai",
+        "category": "stopword"
+    },
+    {
+        "word": "aie",
+        "category": "stopword"
+    },
+    {
+        "word": "aient",
+        "category": "stopword"
+    },
+    {
+        "word": "aies",
+        "category": "stopword"
+    },
+    {
+        "word": "ait",
+        "category": "stopword"
+    },
+    {
+        "word": "alors",
+        "category": "stopword"
+    },
+    {
+        "word": "as",
+        "category": "stopword"
+    },
+    {
+        "word": "au",
+        "category": "stopword"
+    },
+    {
+        "word": "aucun",
+        "category": "stopword"
+    },
+    {
+        "word": "aura",
+        "category": "stopword"
+    },
+    {
+        "word": "aurai",
+        "category": "stopword"
+    },
+    {
+        "word": "auraient",
+        "category": "stopword"
+    },
+    {
+        "word": "aurais",
+        "category": "stopword"
+    },
+    {
+        "word": "aurait",
+        "category": "stopword"
+    },
+    {
+        "word": "auras",
+        "category": "stopword"
+    },
+    {
+        "word": "aurez",
+        "category": "stopword"
+    },
+    {
+        "word": "auriez",
+        "category": "stopword"
+    },
+    {
+        "word": "aurions",
+        "category": "stopword"
+    },
+    {
+        "word": "aurons",
+        "category": "stopword"
+    },
+    {
+        "word": "auront",
+        "category": "stopword"
+    },
+    {
+        "word": "aussi",
+        "category": "stopword"
+    },
+    {
+        "word": "autre",
+        "category": "stopword"
+    },
+    {
+        "word": "aux",
+        "category": "stopword"
+    },
+    {
+        "word": "avaient",
+        "category": "stopword"
+    },
+    {
+        "word": "avais",
+        "category": "stopword"
+    },
+    {
+        "word": "avait",
+        "category": "stopword"
+    },
+    {
+        "word": "avant",
+        "category": "stopword"
+    },
+    {
+        "word": "avec",
+        "category": "stopword"
+    },
+    {
+        "word": "avez",
+        "category": "stopword"
+    },
+    {
+        "word": "aviez",
+        "category": "stopword"
+    },
+    {
+        "word": "avions",
+        "category": "stopword"
+    },
+    {
+        "word": "avoir",
+        "category": "stopword"
+    },
+    {
+        "word": "avons",
+        "category": "stopword"
+    },
+    {
+        "word": "ayant",
+        "category": "stopword"
+    },
+    {
+        "word": "ayez",
+        "category": "stopword"
+    },
+    {
+        "word": "ayons",
+        "category": "stopword"
+    },
+    {
+        "word": "bon",
+        "category": "stopword"
+    },
+    {
+        "word": "car",
+        "category": "stopword"
+    },
+    {
+        "word": "ce",
+        "category": "stopword"
+    },
+    {
+        "word": "ceci",
+        "category": "stopword"
+    },
+    {
+        "word": "cela",
+        "category": "stopword"
+    },
+    {
+        "word": "ces",
+        "category": "stopword"
+    },
+    {
+        "word": "cet",
+        "category": "stopword"
+    },
+    {
+        "word": "cette",
+        "category": "stopword"
+    },
+    {
+        "word": "ceux",
+        "category": "stopword"
+    },
+    {
+        "word": "chaque",
+        "category": "stopword"
+    },
+    {
+        "word": "ci",
+        "category": "stopword"
+    },
+    {
+        "word": "comme",
+        "category": "stopword"
+    },
+    {
+        "word": "comment",
+        "category": "stopword"
+    },
+    {
+        "word": "d",
+        "category": "stopword"
+    },
+    {
+        "word": "dans",
+        "category": "stopword"
+    },
+    {
+        "word": "de",
+        "category": "stopword"
+    },
+    {
+        "word": "dedans",
+        "category": "stopword"
+    },
+    {
+        "word": "dehors",
+        "category": "stopword"
+    },
+    {
+        "word": "depuis",
+        "category": "stopword"
+    },
+    {
+        "word": "des",
+        "category": "stopword"
+    },
+    {
+        "word": "deux",
+        "category": "stopword"
+    },
+    {
+        "word": "devrait",
+        "category": "stopword"
+    },
+    {
+        "word": "doit",
+        "category": "stopword"
+    },
+    {
+        "word": "donc",
+        "category": "stopword"
+    },
+    {
+        "word": "dos",
+        "category": "stopword"
+    },
+    {
+        "word": "droite",
+        "category": "stopword"
+    },
+    {
+        "word": "du",
+        "category": "stopword"
+    },
+    {
+        "word": "d\u00e8s",
+        "category": "stopword"
+    },
+    {
+        "word": "d\u00e9but",
+        "category": "stopword"
+    },
+    {
+        "word": "elle",
+        "category": "stopword"
+    },
+    {
+        "word": "elles",
+        "category": "stopword"
+    },
+    {
+        "word": "en",
+        "category": "stopword"
+    },
+    {
+        "word": "encore",
+        "category": "stopword"
+    },
+    {
+        "word": "essai",
+        "category": "stopword"
+    },
+    {
+        "word": "est",
+        "category": "stopword"
+    },
+    {
+        "word": "et",
+        "category": "stopword"
+    },
+    {
+        "word": "eu",
+        "category": "stopword"
+    },
+    {
+        "word": "eue",
+        "category": "stopword"
+    },
+    {
+        "word": "eues",
+        "category": "stopword"
+    },
+    {
+        "word": "eurent",
+        "category": "stopword"
+    },
+    {
+        "word": "eus",
+        "category": "stopword"
+    },
+    {
+        "word": "eusse",
+        "category": "stopword"
+    },
+    {
+        "word": "eussent",
+        "category": "stopword"
+    },
+    {
+        "word": "eusses",
+        "category": "stopword"
+    },
+    {
+        "word": "eussiez",
+        "category": "stopword"
+    },
+    {
+        "word": "eussions",
+        "category": "stopword"
+    },
+    {
+        "word": "eut",
+        "category": "stopword"
+    },
+    {
+        "word": "eux",
+        "category": "stopword"
+    },
+    {
+        "word": "e\u00fbmes",
+        "category": "stopword"
+    },
+    {
+        "word": "e\u00fbt",
+        "category": "stopword"
+    },
+    {
+        "word": "e\u00fbtes",
+        "category": "stopword"
+    },
+    {
+        "word": "fait",
+        "category": "stopword"
+    },
+    {
+        "word": "faites",
+        "category": "stopword"
+    },
+    {
+        "word": "fois",
+        "category": "stopword"
+    },
+    {
+        "word": "font",
+        "category": "stopword"
+    },
+    {
+        "word": "force",
+        "category": "stopword"
+    },
+    {
+        "word": "furent",
+        "category": "stopword"
+    },
+    {
+        "word": "fus",
+        "category": "stopword"
+    },
+    {
+        "word": "fusse",
+        "category": "stopword"
+    },
+    {
+        "word": "fussent",
+        "category": "stopword"
+    },
+    {
+        "word": "fusses",
+        "category": "stopword"
+    },
+    {
+        "word": "fussiez",
+        "category": "stopword"
+    },
+    {
+        "word": "fussions",
+        "category": "stopword"
+    },
+    {
+        "word": "fut",
+        "category": "stopword"
+    },
+    {
+        "word": "f\u00fbmes",
+        "category": "stopword"
+    },
+    {
+        "word": "f\u00fbt",
+        "category": "stopword"
+    },
+    {
+        "word": "f\u00fbtes",
+        "category": "stopword"
+    },
+    {
+        "word": "haut",
+        "category": "stopword"
+    },
+    {
+        "word": "hors",
+        "category": "stopword"
+    },
+    {
+        "word": "ici",
+        "category": "stopword"
+    },
+    {
+        "word": "il",
+        "category": "stopword"
+    },
+    {
+        "word": "ils",
+        "category": "stopword"
+    },
+    {
+        "word": "j",
+        "category": "stopword"
+    },
+    {
+        "word": "je",
+        "category": "stopword"
+    },
+    {
+        "word": "juste",
+        "category": "stopword"
+    },
+    {
+        "word": "l",
+        "category": "stopword"
+    },
+    {
+        "word": "la",
+        "category": "stopword"
+    },
+    {
+        "word": "le",
+        "category": "stopword"
+    },
+    {
+        "word": "les",
+        "category": "stopword"
+    },
+    {
+        "word": "leur",
+        "category": "stopword"
+    },
+    {
+        "word": "leurs",
+        "category": "stopword"
+    },
+    {
+        "word": "lui",
+        "category": "stopword"
+    },
+    {
+        "word": "l\u00e0",
+        "category": "stopword"
+    },
+    {
+        "word": "m",
+        "category": "stopword"
+    },
+    {
+        "word": "ma",
+        "category": "stopword"
+    },
+    {
+        "word": "maintenant",
+        "category": "stopword"
+    },
+    {
+        "word": "mais",
+        "category": "stopword"
+    },
+    {
+        "word": "me",
+        "category": "stopword"
+    },
+    {
+        "word": "mes",
+        "category": "stopword"
+    },
+    {
+        "word": "moi",
+        "category": "stopword"
+    },
+    {
+        "word": "moins",
+        "category": "stopword"
+    },
+    {
+        "word": "mon",
+        "category": "stopword"
+    },
+    {
+        "word": "mot",
+        "category": "stopword"
+    },
+    {
+        "word": "m\u00eame",
+        "category": "stopword"
+    },
+    {
+        "word": "n",
+        "category": "stopword"
+    },
+    {
+        "word": "ne",
+        "category": "stopword"
+    },
+    {
+        "word": "ni",
+        "category": "stopword"
+    },
+    {
+        "word": "Le",
+        "category": "stopword"
+    },
+    {
+        "word": "La",
+        "category": "stopword"
+    },
+    {
+        "word": "Un",
+        "category": "stopword"
+    },
+    {
+        "word": "Les",
+        "category": "stopword"
+    },
+    {
+        "word": "En",
+        "category": "stopword"
+    },
+    {
+        "word": "Le",
+        "category": "stopword"
+    },
+    {
+        "word": "sans",
+        "category": "stopword"
+    },
+    {
+        "word": "Pour",
+        "category": "stopword"
+    },
+    {
+        "word": "c\u2019est",
+        "category": "stopword"
+    },
+    {
+        "word": "C\u2019est",
+        "category": "stopword"
+    },
+    {
+        "word": "ans",
+        "category": "stopword"
+    },
+    {
+        "word": "plus",
+        "category": "stopword"
+    },
+    {
+        "word": "apr\u00e8s",
+        "category": "stopword"
+    },
+    {
+        "word": "trois",
+        "category": "stopword"
+    },
+    {
+        "word": "contre",
+        "category": "stopword"
+    },
+    {
+        "word": "fin",
+        "category": "stopword"
+    },
+    {
+        "word": "\u00eatre",
+        "category": "stopword"
+    },
+    {
+        "word": "pr\u00e8s",
+        "category": "stopword"
+    },
+    {
+        "word": "face",
+        "category": "stopword"
+    },
+    {
+        "word": "d\u2019une",
+        "category": "stopword"
+    },
+    {
+        "word": "faire",
+        "category": "stopword"
+    },
+    {
+        "word": "d\u2019un",
+        "category": "stopword"
+    },
+    {
+        "word": "notion",
+        "category": "stopword"
+    },
+    {
+        "word": "partant",
+        "category": "stopword"
+    },
+    {
+        "word": "v\u00e9cues",
+        "category": "stopword"
+    },
+    {
+        "word": "Premium",
+        "category": "stopword"
+    },
+    {
+        "word": "remettre",
+        "category": "stopword"
+    },
+    {
+        "word": "ouvrage",
+        "category": "stopword"
+    },
+    {
+        "word": "tente",
+        "category": "stopword"
+    },
+    {
+        "word": "?",
+        "category": "stopword"
+    },
+    {
+        "word": ":",
+        "category": "stopword"
+    },
+    {
+        "word": "\u00ab",
+        "category": "stopword"
+    },
+    {
+        "word": "\u00bb",
+        "category": "stopword"
+    },
+    {
+        "word": "!",
+        "category": "stopword"
+    },
+    {
+        "word": "\u00bb",
+        "category": "stopword"
+    },
+    {
+        "word": "digital",
+        "category": "technologie"
+    },
+    {
+        "word": "num\u00e9rique",
+        "category": "technologie"
+    },
+    {
+        "word": "internet",
+        "category": "technologie"
+    },
+    {
+        "word": "web",
+        "category": "technologie"
+    },
+    {
+        "word": "site",
+        "category": "technologie"
+    },
+    {
+        "word": "site web",
+        "category": "technologie"
+    },
+    {
+        "word": "site internet",
+        "category": "technologie"
+    },
+    {
+        "word": "r\u00e9seau",
+        "category": "technologie"
+    },
+    {
+        "word": "r\u00e9seau social",
+        "category": "technologie"
+    },
+    {
+        "word": "r\u00e9seaux sociaux",
+        "category": "technologie"
+    },
+    {
+        "word": "r\u00e9seaux",
+        "category": "technologie"
+    },
+    {
+        "word": "social",
+        "category": "technologie"
+    },
+    {
+        "word": "m\u00e9dia",
+        "category": "technologie"
+    },
+    {
+        "word": "m\u00e9dias sociaux",
+        "category": "technologie"
+    },
+    {
+        "word": "r\u00e9seau social",
+        "category": "technologie"
+    },
+    {
+        "word": "r\u00e9seaux sociaux",
+        "category": "technologie"
+    },
+    {
+        "word": "r\u00e9seau",
+        "category": "technologie"
+    },
+    {
+        "word": "r\u00e9seaux",
+        "category": "technologie"
+    },
+    {
+        "word": "digitalisation",
+        "category": "technologie"
+    },
+    {
+        "word": "digitalisation",
+        "category": "technologie"
+    },
+    {
+        "word": "facebook",
+        "category": "technologie"
+    },
+    {
+        "word": "twitter",
+        "category": "technologie"
+    },
+    {
+        "word": "instagram",
+        "category": "technologie"
+    },
+    {
+        "word": "linkedin",
+        "category": "technologie"
+    },
+    {
+        "word": "tiktok",
+        "category": "technologie"
+    },
+    {
+        "word": "snapchat",
+        "category": "technologie"
+    },
+    {
+        "word": "whatsapp",
+        "category": "technologie"
+    },
+    {
+        "word": "messenger",
+        "category": "technologie"
+    },
+    {
+        "word": "youtube",
+        "category": "technologie"
+    },
+    {
+        "word": "google",
+        "category": "technologie"
+    },
+    {
+        "word": "amazon",
+        "category": "technologie"
+    },
+    {
+        "word": "apple",
+        "category": "technologie"
+    },
+    {
+        "word": "microsoft",
+        "category": "technologie"
+    },
+    {
+        "word": "netflix",
+        "category": "technologie"
+    },
+    {
+        "word": "spotify",
+        "category": "technologie"
+    },
+    {
+        "word": "deezer",
+        "category": "technologie"
+    },
+    {
+        "word": "twitch",
+        "category": "technologie"
+    },
+    {
+        "word": "discord",
+        "category": "technologie"
+    },
+    {
+        "word": "reddit",
+        "category": "technologie"
+    },
+    {
+        "word": "tumblr",
+        "category": "technologie"
+    },
+    {
+        "word": "pinterest",
+        "category": "technologie"
+    },
+    {
+        "word": "flickr",
+        "category": "technologie"
+    },
+    {
+        "word": "vimeo",
+        "category": "technologie"
+    },
+    {
+        "word": "dailymotion",
+        "category": "technologie"
+    },
+    {
+        "word": "technologie",
+        "category": "technologie"
+    },
+    {
+        "word": "innovation",
+        "category": "technologie"
+    },
+    {
+        "word": "cyber",
+        "category": "technologie"
+    },
+    {
+        "word": "cyberespace",
+        "category": "technologie"
+    },
+    {
+        "word": "cybers\u00e9curit\u00e9",
+        "category": "technologie"
+    },
+    {
+        "word": "commerce \u00e9lectronique",
+        "category": "technologie"
+    },
+    {
+        "word": "startups",
+        "category": "technologie"
+    },
+    {
+        "word": "applications",
+        "category": "technologie"
+    },
+    {
+        "word": "logiciel",
+        "category": "technologie"
+    },
+    {
+        "word": "programmation",
+        "category": "technologie"
+    },
+    {
+        "word": "d\u00e9veloppement",
+        "category": "technologie"
+    },
+    {
+        "word": "code",
+        "category": "technologie"
+    },
+    {
+        "word": "robotique",
+        "category": "technologie"
+    },
+    {
+        "word": "appareils connect\u00e9s",
+        "category": "technologie"
+    },
+    {
+        "word": "IoT",
+        "category": "technologie"
+    },
+    {
+        "word": "intelligence collective",
+        "category": "technologie"
+    },
+    {
+        "word": "r\u00e9volution num\u00e9rique",
+        "category": "technologie"
+    },
+    {
+        "word": "disruption num\u00e9rique",
+        "category": "technologie"
+    },
+    {
+        "word": "science des donn\u00e9es",
+        "category": "technologie"
+    },
+    {
+        "word": "analyse de donn\u00e9es",
+        "category": "technologie"
+    },
+    {
+        "word": "cryptomonnaies",
+        "category": "technologie"
+    },
+    {
+        "word": "blockchain",
+        "category": "technologie"
+    },
+    {
+        "word": "cryptomonnaie",
+        "category": "technologie"
+    },
+    {
+        "word": "fintech",
+        "category": "technologie"
+    },
+    {
+        "word": "paiement en ligne",
+        "category": "technologie"
+    },
+    {
+        "word": "e-learning",
+        "category": "technologie"
+    },
+    {
+        "word": "apprentissage en ligne",
+        "category": "technologie"
+    },
+    {
+        "word": "cloud",
+        "category": "technologie"
+    },
+    {
+        "word": "mobilit\u00e9",
+        "category": "technologie"
+    },
+    {
+        "word": "t\u00e9l\u00e9travail",
+        "category": "technologie"
+    },
+    {
+        "word": "t\u00e9l\u00e9communications",
+        "category": "technologie"
+    },
+    {
+        "word": "r\u00e9alit\u00e9 virtuelle",
+        "category": "technologie"
+    },
+    {
+        "word": "r\u00e9alit\u00e9 augment\u00e9e",
+        "category": "technologie"
+    },
+    {
+        "word": "chatbots",
+        "category": "technologie"
+    },
+    {
+        "word": "assistant virtuel",
+        "category": "technologie"
+    },
+    {
+        "word": "automatisation",
+        "category": "technologie"
+    },
+    {
+        "word": "apprentissage automatique",
+        "category": "technologie"
+    },
+    {
+        "word": "IA",
+        "category": "technologie"
+    },
+    {
+        "word": "algorithmes",
+        "category": "technologie"
+    },
+    {
+        "word": "syst\u00e8mes d'information",
+        "category": "technologie"
+    },
+    {
+        "word": "design",
+        "category": "technologie"
+    },
+    {
+        "word": "UX",
+        "category": "technologie"
+    },
+    {
+        "word": "UI",
+        "category": "technologie"
+    },
+    {
+        "word": "ergonomie",
+        "category": "technologie"
+    },
+    {
+        "word": "partage de donn\u00e9es",
+        "category": "technologie"
+    },
+    {
+        "word": "open data",
+        "category": "technologie"
+    },
+    {
+        "word": "protection des donn\u00e9es",
+        "category": "technologie"
+    },
+    {
+        "word": "vie priv\u00e9e",
+        "category": "technologie"
+    },
+    {
+        "word": "s\u00e9curit\u00e9 des donn\u00e9es",
+        "category": "technologie"
+    },
+    {
+        "word": "piratage",
+        "category": "technologie"
+    },
+    {
+        "word": "piratage",
+        "category": "technologie"
+    },
+    {
+        "word": "censure",
+        "category": "technologie"
+    },
+    {
+        "word": "filtrage",
+        "category": "technologie"
+    },
+    {
+        "word": "gouvernance",
+        "category": "technologie"
+    },
+    {
+        "word": "communaut\u00e9s en ligne",
+        "category": "technologie"
+    },
+    {
+        "word": "natives du num\u00e9rique",
+        "category": "technologie"
+    },
+    {
+        "word": "g\u00e9ants du web",
+        "category": "technologie"
+    },
+    {
+        "word": "m\u00e9dias sociaux",
+        "category": "technologie"
+    },
+    {
+        "word": "blogs",
+        "category": "technologie"
+    },
+    {
+        "word": "vlogs",
+        "category": "technologie"
+    },
+    {
+        "word": "podcasts",
+        "category": "technologie"
+    },
+    {
+        "word": "streaming",
+        "category": "technologie"
+    },
+    {
+        "word": "contenu en ligne",
+        "category": "technologie"
+    },
+    {
+        "word": "commerce num\u00e9rique",
+        "category": "technologie"
+    },
+    {
+        "word": "publicit\u00e9 en ligne",
+        "category": "technologie"
+    },
+    {
+        "word": "marketing num\u00e9rique",
+        "category": "technologie"
+    },
+    {
+        "word": "strat\u00e9gie num\u00e9rique",
+        "category": "technologie"
+    },
+    {
+        "word": "cyberculture",
+        "category": "technologie"
+    },
+    {
+        "word": "cybercriminalit\u00e9",
+        "category": "technologie"
+    },
+    {
+        "word": "fausses nouvelles",
+        "category": "technologie"
+    },
+    {
+        "word": "d\u00e9sinformation",
+        "category": "technologie"
+    },
+    {
+        "word": "\u00e9conomie num\u00e9rique",
+        "category": "technologie"
+    },
+    {
+        "word": "soci\u00e9t\u00e9 num\u00e9rique",
+        "category": "technologie"
+    },
+    {
+        "word": "politique num\u00e9rique",
+        "category": "technologie"
+    },
+    {
+        "word": "droit num\u00e9rique",
+        "category": "technologie"
+    },
+    {
+        "word": "\u00e9thique num\u00e9rique",
+        "category": "technologie"
+    },
+    {
+        "word": "neutralit\u00e9 du net",
+        "category": "technologie"
+    },
+    {
+        "word": "d\u00e9tox num\u00e9rique",
+        "category": "technologie"
+    },
+    {
+        "word": "responsabilit\u00e9 num\u00e9rique",
+        "category": "technologie"
+    },
+    {
+        "word": "informatique verte",
+        "category": "technologie"
+    },
+    {
+        "word": "\u00e9conomie",
+        "category": "economie"
+    },
+    {
+        "word": "\u00e9conomique",
+        "category": "economie"
+    },
+    {
+        "word": "finance",
+        "category": "economie"
+    },
+    {
+        "word": "financier",
+        "category": "economie"
+    },
+    {
+        "word": "march\u00e9",
+        "category": "economie"
+    },
+    {
+        "word": "bourse",
+        "category": "economie"
+    },
+    {
+        "word": "bourse",
+        "category": "economie"
+    },
+    {
+        "word": "commerce",
+        "category": "economie"
+    },
+    {
+        "word": "commerce",
+        "category": "economie"
+    },
+    {
+        "word": "affaires",
+        "category": "economie"
+    },
+    {
+        "word": "entreprise",
+        "category": "economie"
+    },
+    {
+        "word": "soci\u00e9t\u00e9",
+        "category": "economie"
+    },
+    {
+        "word": "corporation",
+        "category": "economie"
+    },
+    {
+        "word": "industrie",
+        "category": "economie"
+    },
+    {
+        "word": "secteur",
+        "category": "economie"
+    },
+    {
+        "word": "croissance",
+        "category": "economie"
+    },
+    {
+        "word": "r\u00e9cession",
+        "category": "economie"
+    },
+    {
+        "word": "crise",
+        "category": "economie"
+    },
+    {
+        "word": "reprise",
+        "category": "economie"
+    },
+    {
+        "word": "plan de relance",
+        "category": "economie"
+    },
+    {
+        "word": "fonds de relance",
+        "category": "economie"
+    },
+    {
+        "word": "strat\u00e9gie de relance",
+        "category": "economie"
+    },
+    {
+        "word": "mesures de relance",
+        "category": "economie"
+    },
+    {
+        "word": "politique de relance",
+        "category": "economie"
+    },
+    {
+        "word": "programme de relance",
+        "category": "economie"
+    },
+    {
+        "word": "initiative de relance",
+        "category": "economie"
+    },
+    {
+        "word": "action de relance",
+        "category": "economie"
+    },
+    {
+        "word": "effort de relance",
+        "category": "economie"
+    },
+    {
+        "word": "processus de relance",
+        "category": "economie"
+    },
+    {
+        "word": "op\u00e9ration de relance",
+        "category": "economie"
+    },
+    {
+        "word": "Wall Street",
+        "category": "economie"
+    },
+    {
+        "word": "Dow Jones",
+        "category": "economie"
+    },
+    {
+        "word": "Nasdaq",
+        "category": "economie"
+    },
+    {
+        "word": "CAC 40",
+        "category": "economie"
+    },
+    {
+        "word": "DAX",
+        "category": "economie"
+    },
+    {
+        "word": "FTSE 100",
+        "category": "economie"
+    },
+    {
+        "word": "Nikkei",
+        "category": "economie"
+    },
+    {
+        "word": "Hang Seng",
+        "category": "economie"
+    },
+    {
+        "word": "Shanghai Composite",
+        "category": "economie"
+    },
+    {
+        "word": "Sensex",
+        "category": "economie"
+    },
+    {
+        "word": "Bovespa",
+        "category": "economie"
+    },
+    {
+        "word": "TSX",
+        "category": "economie"
+    },
+    {
+        "word": "S&P 500",
+        "category": "economie"
+    },
+    {
+        "word": "DAX 30",
+        "category": "economie"
+    },
+    {
+        "word": "FTSE MIB",
+        "category": "economie"
+    },
+    {
+        "word": "IBEX 35",
+        "category": "economie"
+    },
+    {
+        "word": "SMI",
+        "category": "economie"
+    },
+    {
+        "word": "AEX",
+        "category": "economie"
+    },
+    {
+        "word": "BEL 20",
+        "category": "economie"
+    },
+    {
+        "word": "ATX",
+        "category": "economie"
+    },
+    {
+        "word": "unemployment",
+        "category": "economie"
+    },
+    {
+        "word": "employment",
+        "category": "economie"
+    },
+    {
+        "word": "job",
+        "category": "economie"
+    },
+    {
+        "word": "jobless",
+        "category": "economie"
+    },
+    {
+        "word": "joblessness",
+        "category": "economie"
+    },
+    {
+        "word": "job loss",
+        "category": "economie"
+    },
+    {
+        "word": "job cuts",
+        "category": "economie"
+    },
+    {
+        "word": "jobless rate",
+        "category": "economie"
+    },
+    {
+        "word": "minimum wage",
+        "category": "economie"
+    },
+    {
+        "word": "businesses",
+        "category": "economie"
+    },
+    {
+        "word": "business",
+        "category": "economie"
+    },
+    {
+        "word": "company",
+        "category": "economie"
+    },
+    {
+        "word": "corporation",
+        "category": "economie"
+    },
+    {
+        "word": "industry",
+        "category": "economie"
+    },
+    {
+        "word": "sector",
+        "category": "economie"
+    },
+    {
+        "word": "growth",
+        "category": "economie"
+    },
+    {
+        "word": "recession",
+        "category": "economie"
+    },
+    {
+        "word": "crisis",
+        "category": "economie"
+    },
+    {
+        "word": "recovery",
+        "category": "economie"
+    },
+    {
+        "word": "recovery plan",
+        "category": "economie"
+    },
+    {
+        "word": "recovery fund",
+        "category": "economie"
+    },
+    {
+        "word": "recovery strategy",
+        "category": "economie"
+    },
+    {
+        "word": "recovery measures",
+        "category": "economie"
+    },
+    {
+        "word": "recovery policy",
+        "category": "economie"
+    },
+    {
+        "word": "recovery program",
+        "category": "economie"
+    },
+    {
+        "word": "recovery initiative",
+        "category": "economie"
+    },
+    {
+        "word": "recovery action",
+        "category": "economie"
+    },
+    {
+        "word": "recovery effort",
+        "category": "economie"
+    },
+    {
+        "word": "recovery process",
+        "category": "economie"
+    },
+    {
+        "word": "recovery operation",
+        "category": "economie"
+    },
+    {
+        "word": "Wall street",
+        "category": "economie"
+    },
+    {
+        "word": "Dow Jones",
+        "category": "economie"
+    },
+    {
+        "word": "Nasdaq",
+        "category": "economie"
+    },
+    {
+        "word": "CAC 40",
+        "category": "economie"
+    },
+    {
+        "word": "DAX",
+        "category": "economie"
+    },
+    {
+        "word": "FTSE 100",
+        "category": "economie"
+    },
+    {
+        "word": "Nikkei",
+        "category": "economie"
+    },
+    {
+        "word": "Hang Seng",
+        "category": "economie"
+    },
+    {
+        "word": "Shanghai Composite",
+        "category": "economie"
+    },
+    {
+        "word": "Sensex",
+        "category": "economie"
+    },
+    {
+        "word": "Bovespa",
+        "category": "economie"
+    },
+    {
+        "word": "TSX",
+        "category": "economie"
+    },
+    {
+        "word": "S&P 500",
+        "category": "economie"
+    },
+    {
+        "word": "DAX 30",
+        "category": "economie"
+    },
+    {
+        "word": "FTSE MIB",
+        "category": "economie"
+    },
+    {
+        "word": "IBEX 35",
+        "category": "economie"
+    },
+    {
+        "word": "SMI",
+        "category": "economie"
+    },
+    {
+        "word": "AEX",
+        "category": "economie"
+    },
+    {
+        "word": "BEL 20",
+        "category": "economie"
+    },
+    {
+        "word": "ATX",
+        "category": "economie"
+    },
+    {
+        "word": "unemployment",
+        "category": "economie"
+    },
+    {
+        "word": "employment",
+        "category": "economie"
+    },
+    {
+        "word": "job",
+        "category": "economie"
+    },
+    {
+        "word": "jobless",
+        "category": "economie"
+    },
+    {
+        "word": "joblessness",
+        "category": "economie"
+    },
+    {
+        "word": "job loss",
+        "category": "economie"
+    },
+    {
+        "word": "job cuts",
+        "category": "economie"
+    },
+    {
+        "word": "jobless rate",
+        "category": "economie"
+    },
+    {
+        "word": "minimum wage",
+        "category": "economie"
+    },
+    {
+        "word": "catastrophe",
+        "category": "catastrophe"
+    },
+    {
+        "word": "catastrophe naturelle",
+        "category": "catastrophe"
+    },
+    {
+        "word": "d\u00e9sastre",
+        "category": "catastrophe"
+    },
+    {
+        "word": "inondation",
+        "category": "catastrophe"
+    },
+    {
+        "word": "inondations",
+        "category": "catastrophe"
+    },
+    {
+        "word": "inond\u00e9",
+        "category": "catastrophe"
+    },
+    {
+        "word": "inondation",
+        "category": "catastrophe"
+    },
+    {
+        "word": "eaux de crue",
+        "category": "catastrophe"
+    },
+    {
+        "word": "plaine inondable",
+        "category": "catastrophe"
+    },
+    {
+        "word": "zone inondable",
+        "category": "catastrophe"
+    },
+    {
+        "word": "barrages anti-inondation",
+        "category": "catastrophe"
+    },
+    {
+        "word": "\u00e9ruption volcanique",
+        "category": "catastrophe"
+    },
+    {
+        "word": "\u00e9ruption",
+        "category": "catastrophe"
+    },
+    {
+        "word": "tornade",
+        "category": "catastrophe"
+    },
+    {
+        "word": "tremblement de terre",
+        "category": "catastrophe"
+    },
+    {
+        "word": "ouragan",
+        "category": "catastrophe"
+    },
+    {
+        "word": "typhon",
+        "category": "catastrophe"
+    },
+    {
+        "word": "cyclone",
+        "category": "catastrophe"
+    },
+    {
+        "word": "tsunami",
+        "category": "catastrophe"
+    },
+    {
+        "word": "glissement de terrain",
+        "category": "catastrophe"
+    },
+    {
+        "word": "avalanche",
+        "category": "catastrophe"
+    },
+    {
+        "word": "s\u00e9cheresse",
+        "category": "catastrophe"
+    },
+    {
+        "word": "incendie de for\u00eat",
+        "category": "catastrophe"
+    },
+    {
+        "word": "feu de for\u00eat",
+        "category": "catastrophe"
+    },
+    {
+        "word": "incendie",
+        "category": "catastrophe"
+    },
+    {
+        "word": "sant\u00e9",
+        "category": "sante"
+    },
+    {
+        "word": "sant\u00e9",
+        "category": "sante"
+    },
+    {
+        "word": "soins de sant\u00e9",
+        "category": "sante"
+    },
+    {
+        "word": "soin",
+        "category": "sante"
+    },
+    {
+        "word": "m\u00e9dical",
+        "category": "sante"
+    },
+    {
+        "word": "m\u00e9decine",
+        "category": "sante"
+    },
+    {
+        "word": "m\u00e9dicament",
+        "category": "sante"
+    },
+    {
+        "word": "m\u00e9dicament",
+        "category": "sante"
+    },
+    {
+        "word": "m\u00e9dicaments",
+        "category": "sante"
+    },
+    {
+        "word": "m\u00e9dicaments",
+        "category": "sante"
+    },
+    {
+        "word": "pharmacie",
+        "category": "sante"
+    },
+    {
+        "word": "pharmaceutique",
+        "category": "sante"
+    },
+    {
+        "word": "produits pharmaceutiques",
+        "category": "sante"
+    },
+    {
+        "word": "cancer",
+        "category": "sante"
+    },
+    {
+        "word": "diab\u00e8te",
+        "category": "sante"
+    },
+    {
+        "word": "maladie cardiaque",
+        "category": "sante"
+    },
+    {
+        "word": "ob\u00e9sit\u00e9",
+        "category": "sante"
+    },
+    {
+        "word": "sant\u00e9 mentale",
+        "category": "sante"
+    },
+    {
+        "word": "maladie mentale",
+        "category": "sante"
+    },
+    {
+        "word": "d\u00e9pression",
+        "category": "sante"
+    },
+    {
+        "word": "anxi\u00e9t\u00e9",
+        "category": "sante"
+    },
+    {
+        "word": "stress",
+        "category": "sante"
+    },
+    {
+        "word": "addiction",
+        "category": "sante"
+    },
+    {
+        "word": "alcoolisme",
+        "category": "sante"
+    },
+    {
+        "word": "toxicomanie",
+        "category": "sante"
+    },
+    {
+        "word": "abus de substances",
+        "category": "sante"
+    },
+    {
+        "word": "tabagisme",
+        "category": "sante"
+    },
+    {
+        "word": "tabac",
+        "category": "sante"
+    },
+    {
+        "word": "virus",
+        "category": "sante"
+    },
+    {
+        "word": "bact\u00e9ries",
+        "category": "sante"
+    },
+    {
+        "word": "infection",
+        "category": "sante"
+    },
+    {
+        "word": "infections",
+        "category": "sante"
+    },
+    {
+        "word": "infectieux",
+        "category": "sante"
+    },
+    {
+        "word": "pand\u00e9mie",
+        "category": "sante"
+    },
+    {
+        "word": "\u00e9pid\u00e9mie",
+        "category": "sante"
+    },
+    {
+        "word": "\u00e9pid\u00e9mie",
+        "category": "sante"
+    },
+    {
+        "word": "contagion",
+        "category": "sante"
+    },
+    {
+        "word": "covid",
+        "category": "sante"
+    },
+    {
+        "word": "covid-19",
+        "category": "sante"
+    },
+    {
+        "word": "coronavirus",
+        "category": "sante"
+    },
+    {
+        "word": "vaccin",
+        "category": "sante"
+    },
+    {
+        "word": "vaccination",
+        "category": "sante"
+    },
+    {
+        "word": "vaccins",
+        "category": "sante"
+    },
+    {
+        "word": "vaccinations",
+        "category": "sante"
+    },
+    {
+        "word": "vaccin\u00e9",
+        "category": "sante"
+    },
+    {
+        "word": "vaccination",
+        "category": "sante"
+    },
+    {
+        "word": "vacciner",
+        "category": "sante"
+    },
+    {
+        "word": "vaccin\u00e9s",
+        "category": "sante"
+    },
+    {
+        "word": "m\u00e9decin",
+        "category": "sante"
+    },
+    {
+        "word": "m\u00e9decin",
+        "category": "sante"
+    },
+    {
+        "word": "infirmi\u00e8re",
+        "category": "sante"
+    },
+    {
+        "word": "h\u00f4pital",
+        "category": "sante"
+    },
+    {
+        "word": "clinique",
+        "category": "sante"
+    },
+    {
+        "word": "urgence",
+        "category": "sante"
+    },
+    {
+        "word": "ambulance",
+        "category": "sante"
+    },
+    {
+        "word": "param\u00e9dic",
+        "category": "sante"
+    },
+    {
+        "word": "ambulanciers",
+        "category": "sante"
+    },
+    {
+        "word": "premiers secours",
+        "category": "sante"
+    },
+    {
+        "word": "premier intervenant",
+        "category": "sante"
+    },
+    {
+        "word": "premiers intervenants",
+        "category": "sante"
+    },
+    {
+        "word": "assurance maladie",
+        "category": "sante"
+    },
+    {
+        "word": "bact\u00e9rie",
+        "category": "sante"
+    },
+    {
+        "word": "virus",
+        "category": "sante"
+    },
+    {
+        "word": "covid-19",
+        "category": "sante"
+    },
+    {
+        "word": "meurtre",
+        "category": "divers"
+    },
+    {
+        "word": "tu\u00e9",
+        "category": "divers"
+    },
+    {
+        "word": "enl\u00e8vement",
+        "category": "divers"
+    },
+    {
+        "word": "disparition",
+        "category": "divers"
+    },
+    {
+        "word": "disparu",
+        "category": "divers"
+    },
+    {
+        "word": "assassin\u00e9",
+        "category": "divers"
+    },
+    {
+        "word": "assassinat",
+        "category": "divers"
+    },
+    {
+        "word": "kidnapping",
+        "category": "divers"
+    },
+    {
+        "word": "kidnapp\u00e9",
+        "category": "divers"
+    },
+    {
+        "word": "kidnapp\u00e9e",
+        "category": "divers"
+    },
+    {
+        "word": "kidnapp\u00e9s",
+        "category": "divers"
+    },
+    {
+        "word": "kidnapp\u00e9es",
+        "category": "divers"
+    },
+    {
+        "word": "meurtrier",
+        "category": "divers"
+    },
+    {
+        "word": "meurtri\u00e8re",
+        "category": "divers"
+    },
+    {
+        "word": "meurtriers",
+        "category": "divers"
+    },
+    {
+        "word": "cambriolage",
+        "category": "divers"
+    },
+    {
+        "word": "cambriol\u00e9",
+        "category": "divers"
+    },
+    {
+        "word": "cambriol\u00e9s",
+        "category": "divers"
+    },
+    {
+        "word": "braquage",
+        "category": "divers"
+    },
+    {
+        "word": "corps",
+        "category": "divers"
+    },
+    {
+        "word": "cadavre",
+        "category": "divers"
+    },
+    {
+        "word": "cadavres",
+        "category": "divers"
+    },
+    {
+        "word": "criminel",
+        "category": "divers"
+    },
+    {
+        "word": "criminels",
+        "category": "divers"
+    },
+    {
+        "word": "criminelle",
+        "category": "divers"
+    },
+    {
+        "word": "criminelles",
+        "category": "divers"
+    },
+    {
+        "word": "enl\u00e8vement",
+        "category": "divers"
+    },
+    {
+        "word": "viol",
+        "category": "vss"
+    },
+    {
+        "word": "viols",
+        "category": "vss"
+    },
+    {
+        "word": "tu\u00e9e",
+        "category": "vss"
+    },
+    {
+        "word": "assassin\u00e9e",
+        "category": "vss"
+    },
+    {
+        "word": "f\u00e9minicide",
+        "category": "vss"
+    },
+    {
+        "word": "sexuel",
+        "category": "vss"
+    },
+    {
+        "word": "sexuelles",
+        "category": "vss"
+    },
+    {
+        "word": "sexuels",
+        "category": "vss"
+    },
+    {
+        "word": "viol\u00e9e",
+        "category": "vss"
+    },
+    {
+        "word": "viol\u00e9es",
+        "category": "vss"
+    },
+    {
+        "word": "viol\u00e9",
+        "category": "vss"
+    },
+    {
+        "word": "viol\u00e9s",
+        "category": "vss"
+    },
+    {
+        "word": "inceste",
+        "category": "vss"
+    },
+    {
+        "word": "p\u00e9dophilie",
+        "category": "vss"
+    },
+    {
+        "word": "p\u00e9dophile",
+        "category": "vss"
+    },
+    {
+        "word": "p\u00e9dophiles",
+        "category": "vss"
+    },
+    {
+        "word": "harc\u00e8lement",
+        "category": "vss"
+    },
+    {
+        "word": "harc\u00e8lements",
+        "category": "vss"
+    },
+    {
+        "word": "harc\u00e8lement sexuel",
+        "category": "vss"
+    },
+    {
+        "word": "vss",
+        "category": "vss"
+    },
+    {
+        "word": "droit du sol",
+        "category": "immigration"
+    },
+    {
+        "word": "immigration",
+        "category": "immigration"
+    },
+    {
+        "word": "migrants",
+        "category": "immigration"
+    },
+    {
+        "word": "r\u00e9fugi\u00e9s",
+        "category": "immigration"
+    },
+    {
+        "word": "asile",
+        "category": "immigration"
+    },
+    {
+        "word": "int\u00e9gration",
+        "category": "immigration"
+    },
+    {
+        "word": "fronti\u00e8re",
+        "category": "immigration"
+    },
+    {
+        "word": "demandeurs d'asile",
+        "category": "immigration"
+    },
+    {
+        "word": "sans-papiers",
+        "category": "immigration"
+    },
+    {
+        "word": "expulsions",
+        "category": "immigration"
+    },
+    {
+        "word": "r\u00e9gularisation",
+        "category": "immigration"
+    },
+    {
+        "word": "OQTF",
+        "category": "immigration"
+    },
+    {
+        "word": "naturalisation",
+        "category": "immigration"
+    }
+]

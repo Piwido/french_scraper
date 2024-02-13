@@ -1,0 +1,9 @@
+stats
+log.txt
+articles_archive.json
+deleted_articles.json
+removed_articles.json
+training_set_balanced.json
+training_set.json
+articles_temp.json
+unclassed_articles.json
