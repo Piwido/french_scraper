@@ -31,9 +31,12 @@ def get_articles_le_figaro(soup):
 
 def get_articles_le_monde(soup):
     articles_brut = soup.find_all("p", class_="article__title")
+    articles_brut.extend(soup.find_all("h1", class_="article__title"))
+
     articles = []
     for article in articles_brut:
         title = article.text
+        print(title)
         subtitle = ""
         articles.append([title, subtitle, str(datetime.date.today()) , "Le Monde"])
     return articles
@@ -213,14 +216,28 @@ def get_articles_slate(soup):
         articles.append([title, subtitle, str(datetime.date.today()) , "Slate"])
     return articles
 
-def get_artciles_le_telegrame(soup):
+def get_articles_le_telegramme(soup):
     articles_brut = soup.find_all("div", class_="tlg-element__text")
     articles = []
     for article in articles_brut:
         title = article.text.strip()
         subtitle = ""
         articles.append([title, subtitle, str(datetime.date.today()) , "Le Télégramme"])
+    for article in articles:
+        article[0] = article[0].replace("\n", "")
+        article[1] = article[1].replace("\n", "")
+
     return articles
+
+def get_articles_tf1info(soup):
+    articles_brut = soup.find_all("h2", class_="ArticleItem__Title")
+    articles = []
+    for article in articles_brut:
+        title = article.text.strip()
+        subtitle = ""
+        articles.append([title, subtitle, str(datetime.date.today()) , "TF1"])
+    return articles
+
 
 # Retrait des noms de rubrique (titre de moins de 4 mots)
 def remove_invalid_articles(articles):
@@ -237,12 +254,13 @@ def get_hash(articles):
     return hashlib.sha256(articles_str.encode('utf-8')).hexdigest()
 
 def get_articles(sites_dict):
+    articles = []
+
     for site in sites_dict:
         url = site['Url']
         soup = get_soup(url)
         site_name = site['Nom']
         # Stocke les articles nouveaux
-        articles = []
         article_function_name = f"get_articles_{site_name.lower().replace(' ', '_')}"
         article_function = getattr(sys.modules[__name__], article_function_name)
         if callable(article_function):
@@ -261,12 +279,14 @@ def get_articles(sites_dict):
                 print(f"{site_name} n'a pas changé")
         else :
             print(f"La fonction {article_function_name} n'existe pas")
-
         # Met à jour le fichier sites.json
-        with open('json/sites.json', 'w') as f:
-            json.dump(sites_dict, f, indent=4)
+    with open('json/sites.json', 'w') as f:
+        json.dump(sites_dict, f, indent=4)
+
+    for article in articles:
+        print(article[3])
     return articles
-    
+
 
 ### Export to json
 # Création d'un dictionnaire pour chaque nouvel article
@@ -279,10 +299,12 @@ def create_article_dict(articles):
             "date" : article[2],
             "source": article[3]
         }
+        # Que tf1 détécté
         articles_json.append(article_dict)
     return articles_json
 
 
+# Que TF1 détécté
 # Filtrage des articles déjà dans le fichier articles.json
 def filter_old_articles (articles_json):
     count = 0
@@ -290,10 +312,16 @@ def filter_old_articles (articles_json):
         articles = json.load(f)
     new_articles = []
     for article in articles_json:
-        if article not in articles:
+    # TODO: ne pas prendre en compte l'heure
+    # TODO: Sites des nouveaux articles et nombre d'articles   
+        if article['titre'] not in [a['titre'] for a in articles]:
             new_articles.append(article)
+            
             count += 1
     print(f"{count} nouveaux articles récupérés.")
+    # S'il y a des nouveaux articles, affiche la source et le nombre d'articles
+    if count > 0:
+        print(f"Source des nouveaux articles : {journal_count(new_articles)}")
     print(f"Total : {len(articles) + count} articles.")
     return new_articles, count
 
@@ -308,7 +336,14 @@ def add_new_articles (new_articles_json):
         json.dump(articles, f, indent=4)
     return total
 
-
+def journal_count (articles):
+    journal_count = {}
+    for article in articles:
+        if article["source"] in journal_count:
+            journal_count[article["source"]] += 1
+        else:
+            journal_count[article["source"]] = 1
+    return journal_count
 
 def main ():
     # Import le dictionnaire des sites
@@ -317,7 +352,7 @@ def main ():
 
     articles = get_articles(sites_dict)
     articles_json = create_article_dict(articles)
-    new_articles_json, new_number = filter_old_articles(articles_json)
+    new_articles_json, new_number= filter_old_articles(articles_json)
     total = add_new_articles(new_articles_json)
 
     # Création d'un log pour suivre les modifications

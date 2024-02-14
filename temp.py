@@ -110,8 +110,32 @@ def test_special_characters(articles):
             count += 1
     print(f"{count} articles contiennent des caractères spéciaux.")
 
-training_set = load_data("training")
-categories_count = count_categories(training_set)
 
-articles = load_data()
-remove_small_titles(articles)
+def reset_hashes():
+    # Import des sites
+    with open('json/sites.json') as f:
+        sites = json.load(f)
+    for site in sites:
+        site["Hash"] = ""
+    with open('json/sites.json', 'w') as f:
+        json.dump(sites, f, indent=4)
+
+
+def fusion_archive(filename):
+    former_len = 0
+    new_len = 0
+    with open('json/'+filename) as f:
+        archive = json.load(f)
+    with open('json/articles.json') as f:
+        articles = json.load(f)
+    former_len = len(articles)
+    for article in archive: 
+        if article['titre'] not in [article['titre'] for article in articles]:
+            articles.append(article)
+    new_len = len(articles)
+    with open('json/articles.json', 'w') as f:
+        json.dump(articles, f, indent=4)
+    print(f"{new_len - former_len} articles ajoutés. Total : {new_len} articles.")
+
+
+
