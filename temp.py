@@ -82,24 +82,6 @@ def balance_categories_over(training_set, categories_count):
     return balance_categories     
 
     
-## Retirer les noms de rubrique : titres de moins de 5 mots 
-def remove_small_titles(articles):
-    count = 0
-    new_articles = []
-    deleted_articles = []
-    for article in articles:
-        if (len(article["titre"].split()) > 4) or (len(article["sous-titre"].split()) > 4):
-            new_articles.append(article)
-        else:
-            count += 1
-            deleted_articles.append(article)
-    # Sauvegarde temporaire des articles supprimés
-    with open('json/deleted_articles.json', 'w') as f:
-        json.dump(deleted_articles, f, indent=4)
-    # Mise à jour du fichier articles.json
-    with open('json/articles.json', 'w') as f:
-        json.dump(articles, f, indent=4)
-    print(f"{count} articles retirés.")
 
 
 # Test de la détections des caractères spéciaux 
@@ -120,7 +102,7 @@ def reset_hashes():
     with open('json/sites.json', 'w') as f:
         json.dump(sites, f, indent=4)
 
-
+# Fusion de deux fichiers d'articles au format JSON
 def fusion_archive(filename):
     former_len = 0
     new_len = 0
@@ -138,4 +120,48 @@ def fusion_archive(filename):
     print(f"{new_len - former_len} articles ajoutés. Total : {new_len} articles.")
 
 
+
+# Ajout d'une section "sous-titre" à chaque site
+def add_sous_titre():
+    with open('json/sites.json') as f:
+        sites = json.load(f)
+    for site in sites:
+        site["Sous-titre"] = ""
+    with open('json/sites.json', 'w') as f:
+        json.dump(sites, f, indent=4)
+
+reset_hashes()
+
+def add_site_entry():
+    # Charge le fichier JSON des sites
+    with open('json/sites.json', 'r') as f:
+        sites = json.load(f)
+    
+    # Récupère les informations pour la nouvelle entrée
+    site_name = input("Entrez le nom du site : ")
+    site_url = input("Entrez l'URL du site : ")
+    
+    # Liste pour stocker les titres
+    titres = []
+    while True:
+        titre_type = input("Entrez le type de titre (h1, h3, div), ou 0 pour terminer : ")
+        if titre_type == '0':
+            break
+        titre_class = input("Entrez la classe du titre : ")
+        titres.append([titre_type, titre_class])
+    
+    # Crée le nouvel objet de site
+    new_site = {
+        "Nom": site_name,
+        "URL": site_url,
+        "Hash": "",
+        "Titres": titres,
+        "Sous-titre": ""
+    }
+    
+    sites.append(new_site)
+    
+    # Mise à jour du fichier JSON
+    with open('json/sites.json', 'w') as f:
+        json.dump(sites, f, indent=4)
 
