@@ -1,4 +1,8 @@
+# folders
+venv
 stats
+
+# files
 log.txt
 articles_archive.json
 deleted_articles.json
