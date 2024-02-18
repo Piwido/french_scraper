@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse  # Assurez-vous d'importer urlparse depuis urllib.parse
@@ -8,7 +7,10 @@ import datetime
 import re 
 import sys
 
+## TODO: if article.find([...]) is not None:
 
+
+# TODO: ajouter en-tête utilisateur
 # Récupère le contenu de la page
 def get_soup (url):
     response = requests.get(url)
@@ -16,134 +18,52 @@ def get_soup (url):
         return BeautifulSoup(response.text, 'html.parser')
     else:
         print(f"Erreur de requête HTTP pour l'url : {url}")
+        print(f"Code de statut : {response.status_code}")
         exit()
 
-#Récupère les articles d'une page spécifique
-# Format de retour : [[titre, sous-titre, date, site], ...]
-def get_articles_le_figaro(soup):
-    articles_brut = soup.find_all("h2", class_="fig-ranking-profile-headline")
-    articles = []
-    for article in articles_brut:
-        title = article.text
-        subtitle = ""
-        articles.append([title, subtitle, str(datetime.date.today()) , "Le Figaro"])
-    return articles
 
-def get_articles_le_monde(soup):
-    articles_brut = soup.find_all("p", class_="article__title")
-    articles_brut.extend(soup.find_all("h1", class_="article__title"))
-
-    articles = []
-    for article in articles_brut:
-        title = article.text
-        print(title)
-        subtitle = ""
-        articles.append([title, subtitle, str(datetime.date.today()) , "Le Monde"])
-    return articles
-
-def get_articles_le_parisien(soup):
-    articles_brut = soup.find_all("a", class_="lp-f-subtitle-04")
-    articles = []
-    for article in articles_brut:
-        title = article.text
-        subtitle = ""
-        articles.append([title, subtitle, str(datetime.date.today()) , "Le Parisien"])
-    return articles
-
-def get_articles_liberation(soup):
-    articles_brut = soup.find_all("h2", class_="Headline-sc-16el3pa-0")
-    articles = []
-    for article in articles_brut:
-        title = article.text
-        subtitle = ""
-        articles.append([title, subtitle, str(datetime.date.today()) , "Libération"])
-    return articles
-
-def get_articles_les_echos(soup):
-    articles_brut = soup.find_all("h3", class_="sc-14kwckt-6")
-    articles = []
-    for article in articles_brut:
-        title = article.text
-        subtitle = ""
-        articles.append([title, subtitle, str(datetime.date.today()) , "Les Echos"])
-    return articles
-
-def get_articles_mediapart(soup):
-    articles_brut = soup.find_all("div", class_="teaser__container")
-    articles = []
-    title = ""
-    subtitle = ""
-    for article in articles_brut:
-        if article.find("h3", class_="teaser__title" ) is not None:
-            title = article.find("h3", class_="teaser__title" ).text.strip()
-        if article.find("div", class_="teaser__body" ) is not None:
-            subtitle = article.find("div", class_="teaser__body" ).text.strip()
-        articles.append([title, subtitle, str(datetime.date.today()), "Mediapart"])
-    for article in articles:
-        article[0] = article[0].replace("\n", "")
-        article[1] = article[1].replace("\n", "")
+# Suppression des doubles dans une liste d'articles
+def remove_duplicates(articles):
     unique_articles = []
-    seen_titles = set()  # Ensemble pour stocker les titres déjà vus
+    seen_titles = set()  
     for article in articles:
-        title = article[0]
+        title = article["titre"]
         if title not in seen_titles:
             unique_articles.append(article)
             seen_titles.add(title)
     return unique_articles
-
-def get_articles_l_express(soup):
-    articles_brut = soup.find_all("h2", class_="thumbnail__title")
-    articles = []
-    for article in articles_brut:
-        title = article.text
-        subtitle = ""
-        articles.append([title, subtitle, str(datetime.date.today()) , "L'Express"])
-    # Retrait des pubs en bas de page
-    return articles[:-6]
-
-def get_articles_marianne(soup):
-    articles_brut = soup.find_all("a", class_="thumbnail__link")
-    articles = []
-    for article in articles_brut:
-        title = article.text
-        subtitle = ""
-        articles.append([title, subtitle, str(datetime.date.today()) , "Marianne"])
-    return articles
-
-def get_articles_la_croix(soup):
-    articles_brut = soup.find_all("a", class_="block-item__title")
-    articles = []
-    for article in articles_brut:
-        title = article.text.strip()
-        subtitle = ""
-        articles.append([title, subtitle, str(datetime.date.today()) , "La Croix"])
+# Retirer les noms de rubrique : titres de moins de 5 mots 
+def remove_small_titles(articles):
+    count = 0
+    new_articles = []
+    deleted_articles = []
     for article in articles:
-        article[0] = article[0].replace("\n", "")
-        article[1] = article[1].replace("\n", "")
+        if (len(article["titre"].split()) > 4) or (len(article["sous-titre"].split()) > 4):
+            new_articles.append(article)
+        else:
+            count += 1
+            deleted_articles.append(article)
+    # Sauvegarde temporaire des articles supprimés
+    with open('json/deleted_articles.json', 'w') as f:
+        json.dump(deleted_articles, f, indent=4)
+    print(f"{count} articles retirés.")
+    return new_articles
+
+
+# Retrait des "\n" dans les titres et sous-titres
+def remove_newline(articles):
+    for article in articles:
+        article['titre'] = article['titre'].replace("\n", "")
+        article['sous-titre'] = article['sous-titre'].replace("\n", "")
     return articles
 
-def get_articles_20_minutes(soup):
-    articles_brut = soup.find_all("h3", class_="font-weight-bold@xs")
-    articles_brut.extend(soup.find_all("h2", class_="font-weight-bold@xs" ))
-    articles_brut.extend(soup.find_all("h3", class_="font-weight-semi-bold@xs" ))
-    articles_brut.extend(soup.find_all("h4", class_="font-weight-semi-bold@xs" ))
-    articles = []
-    for article in articles_brut:
-        title = article.text.strip()
-        subtitle = ""
-        articles.append([title, subtitle, str(datetime.date.today()) , "20 Minutes"])
+def clean_articles(articles):
+    articles = remove_newline(articles)
+    articles = remove_duplicates(articles)
+    articles = remove_small_titles(articles)
     return articles
-
-def get_articles_courrier_international(soup):
-    articles_brut = soup.find_all("p", class_="title")
-    articles_brut.extend(soup.find_all("h1", class_="title" ))
-    articles = []
-    for article in articles_brut:
-        title = article.text.strip()
-        subtitle = ""
-        articles.append([title, subtitle, str(datetime.date.today()) , "Courrier International"])
-    return articles
-
+#Récupère les articles d'une page spécifique
+# Format de retour : [[titre, sous-titre, date, site], ...]
 def get_articles_bfmtv(soup):
     articles_brut = soup.find_all("h1", class_="title_une_item")
     articles_brut.extend(soup.find_all("h3", class_="content_item_title" ))
@@ -154,97 +74,25 @@ def get_articles_bfmtv(soup):
         articles.append([title, subtitle, str(datetime.date.today()) , "BFMTV"])
     return articles
 
-def get_articles_le_nouvel_obs(soup):
-    articles_brut = soup.find_all("h2", class_="home_une_title")
-    articles_brut.extend(soup.find_all("div", class_="h5-like" ))
-    articles_brut.extend(soup.find_all("p", class_="h5-like" ))
-    articles_brut.extend(soup.find_all("h2", class_="h5-like" ))
-    articles_brut.extend(soup.find_all("h3", class_="h5-like" ))
-    articles_brut.extend(soup.find_all("h3", class_="h6-like" ))
-    articles_brut.extend(soup.find_all("h2", class_="h6-like" ))
-    articles_brut.extend(soup.find_all("p", class_="h6-like" ))
+def get_articles_site(site, soup):
+    ## Récupération des blocs de titres d'articles avec code html
+    tags = site['Titres']
+    articles_brut = []
+    for tag in tags:
+        if soup.find_all(tag[0], class_=tag[1]) is not None: 
+            articles_brut.extend(soup.find_all(tag[0], class_=tag[1]))
+    ## Récupération des titres et sous-titres
     articles = []
+    title = ""
+    subtitle = ""
     for article in articles_brut:
         title = article.text.strip()
-        subtitle = ""
-        articles.append([title, subtitle, str(datetime.date.today()) , "Le Nouvel Obs"])
+        if (len(site['Sous-titre']) > 0):
+            if article.find(site['Sous-titre'][0], class_=site['Sous-titre'][1]).text.strip() is not None:
+                subtitle = article.find(site['Sous-titre'][0], class_=site['Sous-titre'][1]).text.strip()
+        articles.append([title, subtitle, str(datetime.date.today()), site["Nom"]])
     return articles
 
-def get_articles_huffington_post(soup):
-    articles_brut = soup.find_all("p", class_="newsUne-title")
-    articles_brut.extend(soup.find_all("div", class_="blockReading-statement" ))
-    articles_brut.extend(soup.find_all("div", class_="horizontalCardTxt-title" ))
-    articles_brut.extend(soup.find_all("h2", class_="card-title" ))
-    articles_brut.extend(soup.find_all("p", class_="newsFeaturedArticle-chapo" ))
-    articles_brut.extend(soup.find_all("a", class_="newsUne-item" ))
-    articles = []
-    for article in articles_brut:
-        title = article.text.strip()
-        subtitle = ""
-        articles.append([title, subtitle, str(datetime.date.today()) , "Huffington Post"])
-    return articles
-
-def get_articles_valeurs_actuelles(soup):
-    articles_brut = soup.find_all("h2", class_="card-post__title")
-    articles_brut.extend(soup.find_all("h3", class_="b-actu__item__title" ))
-    articles_brut.extend(soup.find_all("a", class_="b-interview__txt" ))
-    articles_brut.extend(soup.find_all("p", class_="b-letter__txt" ))
-
-    articles = []
-    for article in articles_brut:
-        title = article.text.strip()
-        subtitle = ""
-        articles.append([title, subtitle, str(datetime.date.today()) , "Valeurs Actuelles"])
-    return articles
-
-def get_articles_rtl(soup):
-    articles_brut = soup.find_all("h3", class_="article-title")
-    articles_brut.extend(soup.find_all("div", class_="flash-actu-card" ))
-    articles = []
-    for article in articles_brut:
-        title = article.text.strip()
-        subtitle = ""
-        articles.append([title, subtitle, str(datetime.date.today()) , "RTL"])
-    return articles
-
-def get_articles_slate(soup):
-    articles_brut = soup.find_all("p", class_="card-title")
-    articles = []
-    for article in articles_brut:
-        title = article.text.strip()
-        subtitle = ""
-        articles.append([title, subtitle, str(datetime.date.today()) , "Slate"])
-    return articles
-
-def get_articles_le_telegramme(soup):
-    articles_brut = soup.find_all("div", class_="tlg-element__text")
-    articles = []
-    for article in articles_brut:
-        title = article.text.strip()
-        subtitle = ""
-        articles.append([title, subtitle, str(datetime.date.today()) , "Le Télégramme"])
-    for article in articles:
-        article[0] = article[0].replace("\n", "")
-        article[1] = article[1].replace("\n", "")
-
-    return articles
-
-def get_articles_tf1info(soup):
-    articles_brut = soup.find_all("h2", class_="ArticleItem__Title")
-    articles = []
-    for article in articles_brut:
-        title = article.text.strip()
-        subtitle = ""
-        articles.append([title, subtitle, str(datetime.date.today()) , "TF1"])
-    return articles
-
-
-# Retrait des noms de rubrique (titre de moins de 4 mots)
-def remove_invalid_articles(articles):
-    for article in articles:
-        if len(article[0].split()) < 4:
-            articles.remove(article)
-    return articles
 
 # Fonction de création de hash pour chaque site
 def get_hash(articles):
@@ -255,38 +103,31 @@ def get_hash(articles):
 
 def get_articles(sites_dict):
     articles = []
-
     for site in sites_dict:
         url = site['Url']
         soup = get_soup(url)
         site_name = site['Nom']
         # Stocke les articles nouveaux
-        article_function_name = f"get_articles_{site_name.lower().replace(' ', '_')}"
-        article_function = getattr(sys.modules[__name__], article_function_name)
-        if callable(article_function):
-            articles_site=article_function(soup)
-            # Si aucun article n'est trouvé, le code de la page a peut-être changé
+        articles_site=get_articles_site(site, soup)
+        # Si aucun article n'est trouvé, le code de la page a peut-être changé
+        if len(articles_site) == 0:
+            if site_name == "BFMtv":
+                articles_site = get_articles_bfmtv(soup)  
             if len(articles_site) == 0:
                 print(f"Aucun article récupéré sur {site_name}. Vérifiez le code de la page.")
                 continue
-            hash_site = get_hash(articles_site)
-            if hash_site != site['Hash']:
-                print(f"{site_name} a changé : Récupération des nouveaux articles")
-                articles.extend(articles_site)
-                # Mise à jour du hash
-                site['Hash'] = hash_site
-            else:
-                print(f"{site_name} n'a pas changé")
-        else :
-            print(f"La fonction {article_function_name} n'existe pas")
+        hash_site = get_hash(articles_site)
+        if hash_site != site['Hash']:
+            print(f"{site_name} a changé : Récupération des nouveaux articles")
+            articles.extend(articles_site)
+            # Mise à jour du hash
+            site['Hash'] = hash_site
+        else:
+            print(f"{site_name} n'a pas changé")
         # Met à jour le fichier sites.json
     with open('json/sites.json', 'w') as f:
         json.dump(sites_dict, f, indent=4)
-
-    for article in articles:
-        print(article[3])
     return articles
-
 
 ### Export to json
 # Création d'un dictionnaire pour chaque nouvel article
@@ -311,6 +152,7 @@ def filter_old_articles (articles_json):
     with open('json/articles.json') as f:
         articles = json.load(f)
     new_articles = []
+
     for article in articles_json:
     # TODO: ne pas prendre en compte l'heure
     # TODO: Sites des nouveaux articles et nombre d'articles   
@@ -322,8 +164,9 @@ def filter_old_articles (articles_json):
     # S'il y a des nouveaux articles, affiche la source et le nombre d'articles
     if count > 0:
         print(f"Source des nouveaux articles : {journal_count(new_articles)}")
-    print(f"Total : {len(articles) + count} articles.")
-    return new_articles, count
+    total  = len(articles) + count
+    print(f"Total : {total} articles.")
+    return new_articles, count, total
 
 
 # Ajout des nouveaux articles dans le fichier articles.json
@@ -332,6 +175,11 @@ def add_new_articles (new_articles_json):
         articles = json.load(f)
     total = len(articles)
     articles.extend(new_articles_json)
+    count = 0
+    for article in articles :
+        if (article['source'] == "bfmtv" or article['source'] == "BFMTV"):
+            count += 1
+    print(f"Nombre d'articles bfmtv : {count}")
     with open('json/articles.json', 'w') as f:
         json.dump(articles, f, indent=4)
     return total
@@ -349,11 +197,14 @@ def main ():
     # Import le dictionnaire des sites
     with open('json/sites.json') as f:
         sites_dict = json.load(f)
+    
 
     articles = get_articles(sites_dict)
     articles_json = create_article_dict(articles)
-    new_articles_json, new_number= filter_old_articles(articles_json)
-    total = add_new_articles(new_articles_json)
+    articles_json = clean_articles(articles_json)
+    new_articles_json, new_number, total= filter_old_articles(articles_json)
+    add_new_articles(new_articles_json)
+
 
     # Création d'un log pour suivre les modifications
     with open('log.txt', 'a') as f:
