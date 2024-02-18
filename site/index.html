@@ -1,17 +1,20 @@
+<!DOCTYPE html>
 <html>
 <head>
     <link href="style2.css" type="text/css" rel="stylesheet">
+    <link href="theme.css" type="text/css" rel="stylesheet"> 
     <link href="card_artice.css" type="text/css" rel="stylesheet"> <!-- Carte article -->
-
+    <link href="footer.css" type="text/css" rel="stylesheet"> 
     <title>Tri</title>
 </head>
-    <header class="poppins-medium">
+    <header class="">
         <div class = "nav-container">
         <div class="logo-container">
         <img src="logo.png" alt="Konbini Logo"> 
         </div>
         <nav>
             <ul>
+                <li class="poppins-medium"><a href="#">Mode d'emploi</a></li>
                 <li class="poppins-medium"><a href="#">Classification</a></li>
                 <li class="poppins-medium"><a href="#">Premières conclusions</a></li>
                 <li class="poppins-medium"><a href="#">Deconnexion</a></li>
@@ -20,55 +23,77 @@
         </div>
 </header>
 <body>
-
-    <div class="card columns">
+<div class ="top-container">
+    <div class="card columns-article columns">
+        <img src="lemonde.png" alt="journal-logo" class="journal-logo">
         <p class="secondary-heading">« La violence est ordinaire et gratuite chez ces jeunes gangrénés par la misère »... Mayotte, une cage dorée pour les expatriés français.
-            "As a UX designer,you will design the entire UI."
         </p>
-        <p class="card-description">L’île, à feu et à sang, depuis plusieurs semaines, est submergée par des vagues successives de migrants et la criminalité qui y est associée. Une situation qui dure depuis plus de quinze ans, usant les Mahorais et poussant à une forme de confinement sécuritaire les expatriés français..<br>
+        <p class="card-description"><br>
         </p>
         <div class="button-container">
             <!--p class="offer">JOB OFFER</p-->
-            <button class="btn red-flag">RED FLAG</button>
+              <button type="button" class="button-card button-card-delete">
+                <span class="button__text button__text-delete">Delete</span>
+                <span class="button__icon"><svg xmlns="http://www.w3.org/2000/svg" width="512" viewBox="0 0 512 512" height="512" class="svg"><title></title><path style="fill:none;stroke:#323232;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" d="M112,112l20,320c.95,18.49,14.4,32,32,32H348c17.67,0,30.87-13.51,32-32l20-320"></path><line y2="112" y1="112" x2="432" x1="80" style="stroke:#323232;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"></line><path style="fill:none;stroke:#323232;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" d="M192,112V72h0a23.93,23.93,0,0,1,24-24h80a23.93,23.93,0,0,1,24,24h0v40"></path><line y2="400" y1="176" x2="256" x1="256" style="fill:none;stroke:#323232;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"></line><line y2="400" y1="176" x2="192" x1="184" style="fill:none;stroke:#323232;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"></line><line y2="400" y1="176" x2="320" x1="328" style="fill:none;stroke:#323232;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"></line></svg></span>
+              </button>
 
           </div>
   
       </div>
-    <div class="themes">
+      <div class="card columns columns-note">
+            <h4 class="note-h4 poppins-extrabold">NOTE : </h4>
+            <form id="note-form">
+            <br>
+            <textarea type="text" name="note" id="note-input">  </textarea>
+            <h4 class="note-h4 poppins-extrabold"></h4>
+            <button type="submit" class="button-card button-card-valid" id="submit-form">
+                <span id="button-valid" class="button__text button__text-valid">Valider</span>
+                <span><path style="fill:none;stroke:#323232;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" d="M112,112l20,320c.95,18.49,14.4,32,32,32H348c17.67,0,30.87-13.51,32-32l20-320"></path><line y2="112" y1="112" x2="432" x1="80" style="stroke:#323232;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"></line><path style="fill:none;stroke:#323232;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" d="M192,112V72h0a23.93,23.93,0,0,1,24-24h80a23.93,23.93,0,0,1,24,24h0v40"></path><line y2="400" y1="176" x2="256" x1="256" style="fill:none;stroke:#323232;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"></line><line y2="400" y1="176" x2="192" x1="184" style="fill:none;stroke:#323232;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"></line><line y2="400" y1="176" x2="320" x1="328" style="fill:none;stroke:#323232;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"></line></svg></span>
+            </button>
+
+            <button  class="button-card" >
+                <span class="button__text button__text-valid"> Retourner</span>
+                <span><path style="fill:none;stroke:#323232;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" d="M112,112l20,320c.95,18.49,14.4,32,32,32H348c17.67,0,30.87-13.51,32-32l20-320"></path><line y2="112" y1="112" x2="432" x1="80" style="stroke:#323232;stroke-linecap:round;stroke-miterlimit:10;stroke-width:32px"></line><path style="fill:none;stroke:#323232;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px" d="M192,112V72h0a23.93,23.93,0,0,1,24-24h80a23.93,23.93,0,0,1,24,24h0v40"></path><line y2="400" y1="176" x2="256" x1="256" style="fill:none;stroke:#323232;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"></line><line y2="400" y1="176" x2="192" x1="184" style="fill:none;stroke:#323232;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"></line><line y2="400" y1="176" x2="320" x1="328" style="fill:none;stroke:#323232;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"></line></svg></span>
+            </button>
+
+        </form> 
+      </div>
+    </div> 
+    <div class="themes" >
         <h3>Thèmes</h3>
-        <form>
-            <input type="checkbox" name="theme1" value="theme1">Politique<br>
-            <input type="checkbox" name="theme2" value="theme2">Climat<br>
-            <input type="checkbox" name="theme3" value="theme3">Sport<br>
-            <input type="checkbox" name="theme4" value="theme4">Economie<br>
-            <input type="checkbox" name="theme5" value="theme5">Culture<br>
-            <input type="checkbox" name="theme6" value="theme6">Santé<br>
-            <input type="checkbox" name="theme7" value="theme7">Education<br>
-            <input type="checkbox" name="theme8" value="theme8">Technologie<br>
-            <input type="checkbox" name="theme9" value="theme9">International<br>
-            <input type="checkbox" name="theme10" value="theme10">Faits divers<br>
-            <input type="checkbox" name="theme11" value="theme11">Inclassable<br>
-        </form>
-        <h3>Sous thèmes</h3>
-        <form>
-            <input type="checkbox" name="theme1" value="theme1">Politique<br>
-            <input type="checkbox" name="theme2" value="theme2">Climat<br>
-            <input type="checkbox" name="theme3" value="theme3">Sport<br>
-            <input type="checkbox" name="theme4" value="theme4">Economie<br>
-            <input type="checkbox" name="theme5" value="theme5">Culture<br>
-            <input type="checkbox" name="theme6" value="theme6">Santé<br>
-        </form>
-        <h3>Autre</h3>
-        <input type="checkbox" name="theme6" value="theme6">Ceci n'est pas un article<br>
-        <h3 class="valid">Valider</h3>
-        <input type="submit" value="Valider">
-    <h1> Statistiques </h1>
-    <div id="stats">
-        <h3>Nombre d'articles classés pendant cette session : </h3>
-        <div id="nb-articles-perso">0</div>
-        <h3>Nombre d'articles classés au total : </h3>
-        <div id="nb-articles-total">0</div><div>/10000</div>
+        <div class="themes-list">
+        <form class="themes-list" id="themes-form">
+            <div class="themes-list" id="themes-list" >
+            <label class="checkbox-as-button"><input id="checkbox-politique" type="checkbox"><span class="checkbox-button-top">Politique</span></label>
+            <label class="checkbox-as-button"><input id="checkbox-climat" type="checkbox"><span class="checkbox-button-top">Climat</span></label>                         
+            <label class="checkbox-as-button"><input id ="checkbox-culture" type="checkbox"><span class="checkbox-button-top">Culture</span></label>                         
+            <label class="checkbox-as-button"><input id ="checkbox-sport" type="checkbox"><span class="checkbox-button-top">Sport</span></label>                         
+            <label class="checkbox-as-button"><input id ="checkbox-economie" type="checkbox"><span class="checkbox-button-top">Economie</span></label>                         
+            <label class="checkbox-as-button"><input id ="checkbox-vss" type="checkbox"><span class="checkbox-button-top">VSS</span></label>                         
+            <label class="checkbox-as-button"><input id ="checkbox-divers" type="checkbox"><span class="checkbox-button-top">Faits-divers</span></label>                         
+            <label class="checkbox-as-button"><input id ="checkbox-sante" type="checkbox"><span class="checkbox-button-top">Santé</span></label>   
+            </div>                      
     </div>
+</div>
+<div class="themes sous-themes">
+    <h3>Sous-thèmes</h3>
+    <div class="themes-list" id="subthemes">
+</div>    
+    </form>
+</div>
+</div>
+
+<script src="themes.js"></script>
+<!--footer>
+    <div class="footer-container">
+        <div class="footer-nav">
+            <ul>
+                <li><a href="#">Mentions légales</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">CGU</a></li>
+            </ul>
+        </div>
     </div>
+</footer-->
 </body>
 </html>

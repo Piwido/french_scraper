@@ -1,0 +1,103 @@
+
+div.themes {
+    position: relative;
+    margin-left: 25px;
+}
+
+h3 {
+    margin: 30px;
+    margin-top: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 30px;
+      
+    
+}
+
+.themes-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/* Cache la checkbox réelle */
+.button-checkbox {
+    display: none;
+  }
+  
+  /* Styles pour le label qui fonctionne comme un bouton */
+  .button-wrapper {
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+  
+  /* Quand la checkbox est cochée, le .button_top reste enfoncé */
+  .button-checkbox:checked + .button_top {
+    transform: translateY(0);  /*Pas de déplacement vertical */
+  }
+
+.checkbox-as-button {
+    --button_radius: 0.75em;
+    --button_color: #e8e8e8;
+    --button_outline_color: #000000;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: var(--button_radius);
+    display: inline-block;
+    margin-left:25px;
+    margin-right:25px;
+  }
+  
+  .checkbox-as-button input[type="checkbox"] {
+    display: none;
+  }
+  
+  .checkbox-button-top {
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid var(--button_outline_color);
+    border-radius: var(--button_radius);
+    padding: 0.75em 1.5em;
+    background: white;
+    color: var(--button_outline_color);
+    transform: translateY(-0.2em);
+    transition: transform 0.1s ease;
+    box-shadow: 2px 2px black;
+    margin-top: 10px;
+  }
+  
+  
+  .checkbox-as-button:hover .checkbox-button-top {
+    /* Pull the button upwards when hovered */
+    transform: translateY(-0.33em);
+  }
+  
+  .checkbox-as-button input[type="checkbox"]:checked + .checkbox-button-top {
+    /* Push the button downwards when checked */
+    transform: translateY(0);
+    box-shadow: 0px 0px black;
+    background-color: #ECFAE8;
+
+  }
+
+body {
+    background-color: white;
+}
+#subthemes, #themes-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Cela aligne les éléments enfants à gauche */
+
+  /* Vous pouvez ajouter d'autres propriétés pour ajuster l'espacement, l'alignement, etc. */
+  gap: 10px; /* Cela ajoute un peu d'espace entre les boutons */
+}
+
+.checkbox-as-button {
+  /* Ajustez la largeur, la marge, le padding, etc., selon les besoins */
+  /* Assurez-vous que la largeur des boutons leur permet de tenir plusieurs sur une ligne */
+  width: auto; /* ou une largeur spécifique qui convient */
+}
