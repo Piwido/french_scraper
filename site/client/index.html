@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="nav.css" type="text/css" rel="stylesheet">
+
+    <link href="style2.css" type="text/css" rel="stylesheet">
+    <link href="theme.css" type="text/css" rel="stylesheet">
+    <link href="card_artice.css" type="text/css" rel="stylesheet"> <!-- Carte article -->
+    <link href="footer.css" type="text/css" rel="stylesheet">
+    <title>Tri</title>
+</head>
+<header class="">
+    <div class="nav-container top-nav">
+        
+        <div class="logo-container">
+            <img src="logo.png" alt="Logo">
+        </div>
+        
+        <div class="menu-button"></div>
+        <nav>
+            <ul>
+                <li class="poppins-medium"><a href="#">Mode d'emploi</a></li>
+                <li class="poppins-medium"><a href="#">Classification</a></li>
+                <li class="poppins-medium"><a href="#">Premières conclusions</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<img src="return.png" alt="return" class="return">
+<div class="top-container">
+    <div class="card columns-article columns">
+
+    </div>
+</div>
+<iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+
+<form id="themes-form" target="dummyframe" action="http://127.0.0.1:3000">
+
+    <div class="themes">
+        <h3>Thèmes</h3>
+        <div class="themes-list">
+            <div class="themes-list" id="themes-form-div">
+                <div class="themes-list" id="themes-list">
+                    <label class="checkbox-as-button"><input id="checkbox-politique" type="checkbox"
+                            name="politique"><span
+                            class="checkbox-button-top theme-color-politique">Politique</span></label>
+                    <label class="checkbox-as-button"><input id="checkbox-climat" type="checkbox" name="climat"><span
+                            class="checkbox-button-top theme-color-climat">Climat</span></label>
+                    <label class="checkbox-as-button"><input id="checkbox-culture" type="checkbox" name="culture"><span
+                            class="checkbox-button-top theme-color-culture">Culture</span></label>
+                    <label class="checkbox-as-button"><input id="checkbox-sport" type="checkbox" name="sport"><span
+                            class="checkbox-button-top theme-color-sport">Sport</span></label>
+                    <label class="checkbox-as-button"><input id="checkbox-economie" type="checkbox"
+                            name="economie"><span
+                            class="checkbox-button-top theme-color-economie">Economie</span></label>
+                    <label class="checkbox-as-button"><input id="checkbox-vss" type="checkbox" name="vss"><span
+                            class="checkbox-button-top theme-color-vss">VSS</span></label>
+                    <label class="checkbox-as-button"><input id="checkbox-divers" type="checkbox" name="divers"><span
+                            class="checkbox-button-top theme-color-divers">Faits-divers</span></label>
+                    <label class="checkbox-as-button"><input id="checkbox-sante" type="checkbox" name="sante"><span
+                            class="checkbox-button-top theme-color-sante">Santé</span></label>
+                    <label class="checkbox-as-button"><input id="checkbox-flag" type="checkbox" name="flag"><span
+                            class="checkbox-button-top theme-color-flag"><img src="flag.png" alt="flag" class="flag">
+                        </span></label>
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="themes sous-themes">
+        <h3>Sous-thèmes</h3>
+        <div class="themes-list" id="subthemes">
+        </div>
+        <button type="submit" class="button-card button-card-valid" id="submit-form">
+            <span class="button__text button__text-valid">Valider</span>
+        </button>
+    </div>
+</form>
+<script src="themes.js"></script>
+<footer>
+    <!--div class="footer-container">
+        <div class="footer-nav">
+            <ul>
+                <li><a href="#">Mentions légales</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">CGU</a></li>
+            </ul>
+        </div>
+    </div-->
+</footer>
+</body>
+
+</html>

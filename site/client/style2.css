@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure the header stays above other content */
+    /* Other existing styles */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff; /* Background color of the header */
+    padding: 10px 20px;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+    border-bottom: 3px solid #000; /* Black border at the bottom */
+
+} 
+.nav-container {
+    width: 100%; /* Full width of the header */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container img {
+    height: 50px; /* Logo size */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000; /* Text color */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ccc; /* Hover effect */
+}
+
+#titre-artcile {
+    font-family: "Times New Roman", Times, serif;
+
+}
+
+* {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    
+}
+
+img.return {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+

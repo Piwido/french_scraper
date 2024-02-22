@@ -1,0 +1,294 @@
+.columns {
+  position: relative;
+  border-radius: 20px;
+  padding: 25px;
+  border: 3px solid  black;
+  transition: all 0.4s;
+  box-shadow: 2px 2px 0 1px rgba(0,0,0);
+
+}
+#submit-form, #button-card-note-return {
+  width: 100%;
+  height: 40px;
+  max-width: 150px;
+  text-align: center;
+ }
+
+.columns-article {
+  width: 65%;
+}
+
+.article-place {
+  min-height: 150px;
+}
+.columns-note {
+  width : 10%;
+}
+
+.note-h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.columns:hover {
+  box-shadow: 4px 4px 0 1px rgba(0,0,0);
+}
+
+
+.top-container{
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-evenly; /* Cela aligne les éléments enfants à gauche */
+
+  /* Vous pouvez ajouter d'autres propriétés pour ajuster l'espacement, l'alignement, etc. */
+
+}
+
+
+.columns .button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 0px;
+  }
+
+
+.journal-logo {
+    width: 100px; /* Set the width to 30px */
+    height: 30px; /* Set the height to 30px */
+    display: block; /* Allows margin to be applied */
+    margin: 0 auto; /* Centers the image horizontally */
+    object-fit: contain; /* Ensures the image's aspect ratio is maintained */
+  }
+
+  
+.offer {
+  font-size: 17px;
+  font-weight: 900;
+  border-bottom: 2px solid black;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.btn {
+  padding: 7px 15px;
+  border: 1px solid black;
+  background-color: orange;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.red-flag {
+    position: relative;
+    margin-left : auto;
+}
+
+div.columns-article {
+    position: relative;
+
+}
+
+div.card {
+  position: relative;
+  margin-top: 10px;
+
+}
+
+
+.columns:hover .btn {
+  box-shadow: 2px 2px 0 1px rgba(0,0,0);
+}
+
+.columns:hover .offer {
+  color: green;
+  border-color: green;
+}
+
+.btn:focus {
+  background: transparent;
+}
+
+.secondary-heading {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+.card-description {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: justify;
+}
+ 
+.button-card {
+    --main-focus: #2d8cf0;
+    --font-color: #323232;
+    --bg-color-sub: #dedede;
+    --bg-color: #white;
+    --main-color: #323232;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 2px solid var(--main-color);
+    box-shadow: 1px 1px var(--main-color);
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left : auto;
+    margin-right: 2em;
+  }
+  
+
+
+  .button-card, .button__icon, .button__text {
+    font-weight: 600;
+
+    transition: all 0.3s;
+    text-align: center;
+
+  }
+  
+  .button-card-delete .button__text-delete {
+    transform: translateX(33px);
+    color: var(--font-color);
+  }
+  
+  .button-card .button__icon {
+    position: absolute;
+    transform: translateX(109px);
+    height: 100%;
+    width: 30px;
+    background-color: var(--bg-color-sub);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .button-card-delete .svg {
+    width: 20px;
+    fill: var(--main-color);
+  }
+  
+  .button-card:hover {
+    background: var(--bg-color);
+  }
+
+
+.button-card-delete {
+  width: 150px;
+  height: 40px;
+
+}
+  
+  .button-card-delete:hover .button__text-delete {
+    color: transparent;
+  }
+  
+  .button-card-delete:hover .button__icon {
+    width: 150px;
+    transform: translateX(0);
+
+  }
+  
+  .button-card:active {
+    transform: translate(3px, 3px);
+    box-shadow: 0px 0px var(--main-color);
+  }
+  .columns:hover .button-card {
+    box-shadow: 2px 2px 0 1px rgba(0,0,0);
+  }
+
+  
+
+.button-card-valid {
+ /* background-color: #ECFAE8;*/
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+
+.button-card-valid .button__text-valid {
+  transform: translateX(45px);
+
+  text-align: center;
+  color: var(--font-color);
+  font-weight: 600;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  text-align: center;
+  
+}
+
+
+#note-input {
+  border: none;
+  border-radius: 10px;
+  padding: 2.5%;
+  background-color: #e8e8e8;
+  font-size: medium;
+  font-weight: bold;
+  width: 95%;
+  height: 70%;
+
+ }
+ 
+#note-input:focus {
+  outline-color: white;
+  place-content: "Enter your message!";
+ }
+
+ @media screen and (max-width: 1200px) {
+  /* Insérez vos propriétés CSS ici, avec vos sélecteurs*/
+  .top-container{
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* Cela aligne les éléments enfants à gauche */
+  }
+  
+  .card {
+    margin : auto;
+  }
+
+  .columns {
+    width: 90%;
+  }
+
+  .button-container-note{
+    display: flex;
+    justify-content: right;
+  }
+
+  .button-card {
+    margin-top: 20px;
+    margin-left: auto;
+  }
+
+  #button-card-note-return {
+    margin-left: 20px;
+
+  }
+
+  #submit-form {
+    margin-left: auto;
+  }
+
+  #note-input {
+    height: 20px;
+    
+   }
+   
+  
+
+ }
